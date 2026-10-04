@@ -1,0 +1,15 @@
+[package]
+name = "notnotion"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+app_model = { package = "notnotion-app-model", path = "../app/model" }
+gpui.workspace = true
+gpui_platform.workspace = true
+notion = { package = "notnotion-notion", path = "../notion" }
+theme.workspace = true
+
+[lints]
+workspace = true
