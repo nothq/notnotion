@@ -111,34 +111,20 @@ fn select_unambiguous_workspace(
     pointers: &[SpaceViewPointer],
     restored_space_id: Option<NonEmptyNotionId>,
 ) -> Result<ActiveNotionWorkspace, NotionLiveError> {
-    match pointers {
-        [] => Err(NotionLiveError::Fatal(
+    match (pointers, restored_space_id) {
+        ([], _) => Err(NotionLiveError::Fatal(
             "the active Notion user has no workspace space_view pointers".to_string(),
         )),
-        [pointer] => Ok(ActiveNotionWorkspace::from(pointer)),
-        pointers => Err(NotionLiveError::Fatal(ambiguous_workspace_message(
-            restored_space_id.as_ref(),
-            pointers.len(),
+        // Without Notion Desktop's window state (a browser sign-in), open the
+        // first workspace in the person's sidebar, as Notion on the web does.
+        ([pointer], _) | ([pointer, ..], None) => Ok(ActiveNotionWorkspace::from(pointer)),
+        (pointers, Some(space_id)) => Err(NotionLiveError::Fatal(format!(
+            "Notion Desktop restored workspace {} is not present in getSpacesInitial; \
+the active user has {} workspaces, so notnotion cannot choose one safely",
+            space_id.0,
+            pointers.len()
         ))),
     }
-}
-
-fn ambiguous_workspace_message(
-    restored_space_id: Option<&NonEmptyNotionId>,
-    workspace_count: usize,
-) -> String {
-    let context = restored_space_id.map_or_else(
-        || "Notion Desktop restoration state is unavailable".to_string(),
-        |space_id| {
-            format!(
-                "Notion Desktop restored workspace {} is not present in getSpacesInitial",
-                space_id.0
-            )
-        },
-    );
-    format!(
-        "{context}; the active user has {workspace_count} workspaces, so notnotion cannot choose one safely"
-    )
 }
 
 fn validate_space_view_pointers(pointers: &[SpaceViewPointer]) -> Result<(), NotionLiveError> {

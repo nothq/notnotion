@@ -1,4 +1,7 @@
-use std::{ffi::c_void, time::Duration};
+// Release builds on Windows are GUI apps: no console window behind notnotion.
+#![cfg_attr(all(windows, not(debug_assertions)), windows_subsystem = "windows")]
+
+use std::time::Duration;
 
 use app_model::{AppearanceMode, SurfaceFrame, SurfaceRoot as _, SurfaceTheme, Viewport};
 use gpui::{
@@ -9,31 +12,51 @@ use gpui::{
 
 actions!(notnotion, [Quit]);
 
+#[cfg(target_os = "macos")]
 extern "C" {
-    fn malloc_zone_pressure_relief(zone: *mut c_void, goal: usize) -> usize;
+    fn malloc_zone_pressure_relief(zone: *mut std::ffi::c_void, goal: usize) -> usize;
+}
+
+#[cfg(all(target_os = "linux", target_env = "gnu"))]
+extern "C" {
+    fn malloc_trim(pad: usize) -> i32;
 }
 
 /// Notion's API answers in large JSON documents that are parsed and then
-/// dropped. macOS keeps the freed pages charged to the process until the
-/// system runs short, so hand them back once the app goes quiet.
+/// dropped. macOS and glibc keep the freed pages charged to the process until
+/// the system runs short, so hand them back once the app goes quiet.
 fn release_freed_memory(cx: &mut App) {
     let executor = cx.background_executor().clone();
     cx.background_spawn(async move {
         loop {
             executor.timer(Duration::from_secs(10)).await;
-            // SAFETY: a null zone asks every malloc zone to return free pages.
-            unsafe { malloc_zone_pressure_relief(std::ptr::null_mut(), 0) };
+            return_free_pages();
         }
     })
     .detach();
 }
+
+#[cfg(target_os = "macos")]
+fn return_free_pages() {
+    // SAFETY: a null zone asks every malloc zone to return free pages.
+    unsafe { malloc_zone_pressure_relief(std::ptr::null_mut(), 0) };
+}
+
+#[cfg(all(target_os = "linux", target_env = "gnu"))]
+fn return_free_pages() {
+    // SAFETY: malloc_trim only releases memory glibc already considers free.
+    unsafe { malloc_trim(0) };
+}
+
+#[cfg(not(any(target_os = "macos", all(target_os = "linux", target_env = "gnu"))))]
+fn return_free_pages() {}
 
 fn main() {
     gpui_platform::application().run(|cx: &mut App| {
         theme::init(theme::LoadThemes::JustBase, cx);
         cx.set_global(appearance_mode(cx.window_appearance()));
         cx.on_action(|_: &Quit, cx| cx.quit());
-        cx.bind_keys([KeyBinding::new("cmd-q", Quit, None)]);
+        cx.bind_keys([KeyBinding::new("secondary-q", Quit, None)]);
         cx.set_menus([Menu::new("notnotion").items([MenuItem::action("Quit notnotion", Quit)])]);
         cx.on_window_closed(|cx, _| cx.quit()).detach();
         release_freed_memory(cx);
