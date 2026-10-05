@@ -1,0 +1,160 @@
+{
+  "reference": {
+    "app": "Notion.app",
+    "version": "7.31.3",
+    "platform": "macOS",
+    "theme": "light",
+    "viewport_css_px": [1320, 824],
+    "device_pixel_ratio": 2,
+    "captured_on": "2026-09-02",
+    "time_zone": "America/Toronto",
+    "method": "desktop-inspector managed session; Runtime.evaluate dumps of getComputedStyle and getBoundingClientRect on the live DOM"
+  },
+  "text_block": {
+    "font_family": "ui-sans-serif, -apple-system, system-ui, Segoe UI Variable Display, Segoe UI, Helvetica, Apple Color Emoji, Noto Sans Arabic, Noto Sans Hebrew, Arial, sans-serif",
+    "font_size_px": 16,
+    "line_height_px": 24,
+    "color": "#2c2c2b",
+    "block_padding_px": 6,
+    "leaf_padding_px": 2
+  },
+  "menu": {
+    "width_px": 330,
+    "border_radius_px": 10,
+    "background": "#ffffff",
+    "inset_px": 4,
+    "max_height": "40vh",
+    "box_shadow": [
+      {"color": "rgba(25,25,25,0.05)", "offset": [0, 20], "blur": 24, "spread": 0},
+      {"color": "rgba(25,25,25,0.027)", "offset": [0, 5], "blur": 8, "spread": 0},
+      {"color": "rgba(42,28,0,0.07)", "offset": [0, 0], "blur": 0, "spread": 1}
+    ],
+    "anchor": {
+      "left": "at-glyph left minus 8px",
+      "top": "line box bottom plus 9.5px",
+      "measured_samples": [
+        {"at_glyph_left": 443.0, "line_box_bottom": 252.0, "menu_left": 435.4, "menu_top": 261.5},
+        {"at_glyph_left": 664.4, "line_box_bottom": 300.0, "menu_left": 656.7, "menu_top": 309.5}
+      ]
+    },
+    "section_header": {
+      "font_size_px": 12,
+      "font_weight": 500,
+      "line_height_px": 14.4,
+      "color": "#7d7a75",
+      "padding": "4px 8px 0",
+      "margin": "6px 0 8px"
+    },
+    "row": {
+      "width_px": 322,
+      "height_px": 28,
+      "border_radius_px": 6,
+      "padding": "0 8px",
+      "gap_px": 8,
+      "icon_px": 20,
+      "label_font_size_px": 14,
+      "label_line_height_px": 16.8,
+      "label_color": "#2c2c2b",
+      "sublabel_font_size_px": 12,
+      "sublabel_color": "#7d7a75",
+      "sublabel_dash_color": "#bcbab6",
+      "sublabel_dash_margin_px": 6,
+      "selected_background": "rgba(33,27,23,0.051)"
+    },
+    "two_line_page_row": {
+      "height_px": 45,
+      "padding": "4px 8px",
+      "caption_font_size_px": 12,
+      "caption_color": "#a19e99",
+      "caption_margin_top_px": 2,
+      "icon_border_radius_px": 3.5
+    },
+    "divider": {"height_px": 1, "color": "rgba(42,28,0,0.07)", "margin_x_px": 12},
+    "footer": {"label": "Give search feedback", "font_size_px": 12, "color": "#a19e99", "height_px": 30, "shown_when": "query is not empty"},
+    "temporary_input_pill": {
+      "background": "rgba(66,35,3,0.03)",
+      "outline": "5.5px solid rgba(66,35,3,0.03)",
+      "border_radius_px": 0.5,
+      "ghost_text_color": "#a19e99",
+      "ghost_shown_when": "the top suggestion's label starts with the query",
+      "dom": "span.notion-temporary-input.pseudoAfter.pseudoAfterWhenComposing with --pseudoAfter--content set to the completion; the leading @ keeps color:inherit while typing",
+      "ghost_hidden_while_composing": true
+    },
+    "sections_in_order": ["Date", "People", "Link to page", "New page"],
+    "keyboard": {
+      "up_down": "move selection, wraps",
+      "enter": "insert selected row as one token followed by a space",
+      "escape": "close and keep the typed text; the same trigger does not reopen",
+      "typing": "keeps filtering; spaces allowed (\"@sep 7\", \"@in 3 days\")"
+    }
+  },
+  "date_grammar_samples": [
+    {"query": "today", "chip": "@Today", "start_date": "2026-09-02"},
+    {"query": "tomorrow", "chip": "@Tomorrow", "start_date": "2026-09-03"},
+    {"query": "yesterday", "chip": "@Yesterday", "start_date": "2026-09-01"},
+    {"query": "sep 7", "chip": "@Next Monday", "start_date": "2026-09-07"},
+    {"query": "aug 30", "chip": "@Last Sunday", "start_date": "2026-08-30"},
+    {"query": "sep 6", "chip": "@Sunday", "start_date": "2026-09-06"},
+    {"query": "sep 13", "chip": "@Next Sunday", "start_date": "2026-09-13"},
+    {"query": "sep 14", "chip": "@September 14, 2026", "start_date": "2026-09-14"},
+    {"query": "next week", "chip": "@Next Wednesday", "start_date": "2026-09-09"},
+    {"query": "friday", "chip": "@Friday", "start_date": "2026-09-04"},
+    {"query": "9am", "chip": "@Today 9:00 AM", "start_date": "2026-09-02", "start_time": "09:00", "type": "datetime"},
+    {"query": "1/5", "chip": "@January 5, 2027", "start_date": "2027-01-05"},
+    {"query": "in 3 days", "chip": "@Saturday", "start_date": "2026-09-05"},
+    {"query": "last month", "chip": "@August 2, 2026", "start_date": "2026-08-02"}
+  ],
+  "prefix_completion_samples": {
+    "note": "Typed after @ on 2026-09-02 (a Wednesday) in the same managed session as the rest of this file; row_label and row_sublabel are the first menu row, ghost is --pseudoAfter--content on the temporary input.",
+    "samples": [
+      {"query": "t", "row_label": "Today", "row_sublabel": "September 2, 2026", "ghost": "oday", "start_date": "2026-09-02"},
+      {"query": "tod", "row_label": "Today", "row_sublabel": "September 2, 2026", "ghost": "ay", "start_date": "2026-09-02"},
+      {"query": "tom", "row_label": "Tomorrow", "row_sublabel": null, "ghost": "orrow", "start_date": "2026-09-03"},
+      {"query": "y", "row_label": "Yesterday", "row_sublabel": "September 1, 2026", "ghost": "esterday", "start_date": "2026-09-01"},
+      {"query": "yes", "row_label": "Yesterday", "row_sublabel": "September 1, 2026", "ghost": "terday", "start_date": "2026-09-01"},
+      {"query": "fri", "row_label": "Friday", "row_sublabel": null, "ghost": "day", "start_date": "2026-09-04"},
+      {"query": "mon", "row_label": "Monday", "row_sublabel": "August 31, 2026", "ghost": "day", "start_date": "2026-08-31"},
+      {"query": "sun", "row_label": "Sunday", "row_sublabel": null, "ghost": "day", "start_date": "2026-09-06"},
+      {"query": "sep", "row_label": "Yesterday", "row_sublabel": "September 1, 2026", "ghost": null, "start_date": "2026-09-01"},
+      {"query": "aug", "row_label": "August 1, 2027", "row_sublabel": null, "ghost": "ust 1, 2027", "start_date": "2027-08-01"},
+      {"query": "ada", "row_label": "Ada Lovelace (You)", "ghost": " Lovelace", "section": "People"}
+    ],
+    "rules": {
+      "keyword_prefix": "any prefix of today, tomorrow or yesterday resolves to that day; a shared prefix takes the earlier of the two (t is Today, not Tomorrow)",
+      "weekday_prefix": "any prefix of a weekday name resolves inside the current Monday-start week, past or future (mon is 2026-08-31, fri is 2026-09-04, sun is 2026-09-06)",
+      "month_name": "a bare month resolves to its first day; the year rolls forward only when the month is before the current month (sep is 2026-09-01, aug is 2027-08-01)",
+      "date_row_sublabel": "the full date shows on the date row only when the query has no reminder row; a future date moves it to the reminder row instead",
+      "ghost": "the completion of the first row's label, or of a person's name before the (You) suffix; absent when the label does not start with the query"
+    }
+  },
+  "relative_label_rules": {
+    "week_start": "Monday",
+    "rules": [
+      "same day: Today; +1: Tomorrow; -1: Yesterday",
+      "same Monday-to-Sunday week: weekday name",
+      "previous week: Last <weekday>; next week: Next <weekday>",
+      "otherwise: <Month> <day>, <year> (year always shown)",
+      "with time: label, space, h:mm AM/PM"
+    ]
+  },
+  "chip": {
+    "dom": "span.notion-text-mention-token.notion-enable-hover.notion-focusable-token[contenteditable=false] > span(\"@\") + span.notion-reminder(label)",
+    "color": "#7d7a75",
+    "at_sign_color": "color-mix(in srgb, currentColor 60%, transparent)",
+    "hover": ".notion-reminder.notion-enable-hover:hover { text-decoration: underline }",
+    "cursor": "pointer",
+    "font": "inherits block (16px / 24px)",
+    "box": "no background, padding, border or radius",
+    "measured_width_px": {"@Today": 57.9, "@Next Monday": 110.1, "@September 14, 2026": 162.2},
+    "commit_inserts_trailing_space": true
+  },
+  "wire": {
+    "title_chunk": ["‣", [["d", {"type": "date", "start_date": "2026-09-02", "date_format": "relative"}]]],
+    "title_chunk_with_time": ["‣", [["d", {"type": "datetime", "time_zone": "America/Toronto", "start_date": "2026-09-02", "start_time": "09:00", "date_format": "relative"}]]],
+    "save_operations": [
+      {"type": "insertText", "content": "‣ ", "note": "one item per UTF-16 unit; the token is the first"},
+      {"type": "addAnnotation", "start": {"anchor": "before", "id": "<token item>"}, "end": {"anchor": "after", "id": "<token item>"}, "annotation": ["d", {"type": "date", "start_date": "2026-09-03", "date_format": "relative"}]}
+    ],
+    "user_action": "MentionMenu.menuItem"
+  }
+}
