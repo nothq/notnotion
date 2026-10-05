@@ -47,7 +47,7 @@ impl LiveWorkspaceContext {
             );
         if workspace_cache.is_none() {
             quick_find_records.merge_hydrated_root(
-                initial_bootstrap.response.record_map()?.clone(),
+                initial_bootstrap.response.record_map()?,
                 &page_block_id,
             )?;
         }
@@ -157,7 +157,7 @@ impl LiveWorkspaceContext {
             ));
         }
         self.quick_find_records.merge_hydrated_root_at_generation(
-            bootstrap.response.record_map()?.clone(),
+            bootstrap.response.record_map()?,
             &board_target.collection_view_block_id,
             quick_find_generation,
         )?;

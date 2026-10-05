@@ -1,4 +1,4 @@
-use std::collections::HashSet;
+use std::{collections::HashSet, sync::Arc};
 
 use super::{record_map::merge_record_map, Map, Value};
 
@@ -56,7 +56,9 @@ struct HydratedPageBlockScope {
 
 #[derive(Clone, Debug)]
 pub(in crate::live) struct CompletePageResponse {
-    value: Value,
+    /// Compact JSON text. A parsed `Value` tree costs several times the text
+    /// it came from, and loaded pages only need it back to apply an edit.
+    json: Arc<str>,
     unavailable_reference_block_ids: HashSet<String>,
     opaque_unavailable_blocks: opaque::ProvenOpaqueUnavailableBlocks,
 }
@@ -68,14 +70,19 @@ impl CompletePageResponse {
         opaque_unavailable_blocks: opaque::ProvenOpaqueUnavailableBlocks,
     ) -> Self {
         Self {
-            value: response,
+            json: response.to_string().into(),
             unavailable_reference_block_ids,
             opaque_unavailable_blocks,
         }
     }
 
-    pub(in crate::live::board) fn as_value(&self) -> &Value {
-        &self.value
+    pub(in crate::live::board) fn value(&self) -> Result<Value, String> {
+        serde_json::from_str(&self.json)
+            .map_err(|error| format!("cached Notion page response is not JSON: {error}"))
+    }
+
+    pub(in crate::live::board) fn set_value(&mut self, value: &Value) {
+        self.json = value.to_string().into();
     }
 
     pub(in crate::live::board) fn unavailable_reference_block_ids(&self) -> &HashSet<String> {
@@ -86,15 +93,6 @@ impl CompletePageResponse {
         &self,
     ) -> &opaque::ProvenOpaqueUnavailableBlocks {
         &self.opaque_unavailable_blocks
-    }
-
-    pub(in crate::live::board) fn record_map_mut(
-        &mut self,
-    ) -> Result<&mut Map<String, Value>, String> {
-        self.value
-            .get_mut("recordMap")
-            .and_then(Value::as_object_mut)
-            .ok_or_else(|| "completed Notion page response is missing recordMap".to_string())
     }
 }
 

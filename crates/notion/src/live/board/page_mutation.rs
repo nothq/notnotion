@@ -113,11 +113,11 @@ impl LiveBoardMutator {
             format!("Notion page {page_id} does not have its required cached response")
         })?;
         let record_map = response
-            .as_value()
-            .get("recordMap")
-            .and_then(Value::as_object)
-            .ok_or_else(|| format!("Notion page {page_id} does not have a cached recordMap"))?
-            .clone();
+            .value()?
+            .get_mut("recordMap")
+            .and_then(Value::as_object_mut)
+            .map(std::mem::take)
+            .ok_or_else(|| format!("Notion page {page_id} does not have a cached recordMap"))?;
         Ok(Value::Object(
             [("recordMap".to_string(), Value::Object(record_map))]
                 .into_iter()
@@ -244,12 +244,13 @@ impl LiveBoardMutator {
         expectations: &HashMap<String, BlockCommitExpectation>,
         committed_blocks: &Map<String, Value>,
     ) -> Result<(), String> {
-        let cached_blocks = self
+        let response = self
             .page_responses
             .get_mut(page_block_id)
-            .ok_or_else(|| format!("page {page_block_id} has no cached page response"))?
-            .record_map_mut()?
-            .get_mut("block")
+            .ok_or_else(|| format!("page {page_block_id} has no cached page response"))?;
+        let mut response_value = response.value()?;
+        let cached_blocks = response_value
+            .pointer_mut("/recordMap/block")
             .and_then(Value::as_object_mut)
             .ok_or_else(|| format!("page {page_block_id} has no cached recordMap.block"))?;
         for (block_id, expectation) in expectations {
@@ -276,6 +277,7 @@ impl LiveBoardMutator {
                 }
             }
         }
+        response.set_value(&response_value);
         Ok(())
     }
 }

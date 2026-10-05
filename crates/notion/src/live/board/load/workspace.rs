@@ -70,7 +70,7 @@ pub(crate) fn load_database_filter_snapshot_for_query(
             "Notion page and user context resolved different active users".to_string(),
         ));
     }
-    let bootstrap = initial_bootstrap.response.database_value();
+    let bootstrap = initial_bootstrap.response.database_value()?;
     let mut loaded = load_live_database_snapshot(LiveDatabaseLoadRequest {
         session,
         board_target,
@@ -274,7 +274,7 @@ fn build_loaded_board_snapshot(
             load_presence,
         }),
         "collection_view" | "collection_view_page" => {
-            let bootstrap = initial_response.database_value();
+            let bootstrap = initial_response.database_value()?;
             load_live_database_snapshot(LiveDatabaseLoadRequest {
                 session,
                 board_target,
@@ -324,7 +324,7 @@ fn workspace_root(
     bootstrap: &CompletePageResponse,
     board_target: &BoardTarget,
 ) -> Result<(String, String), NotionLiveError> {
-    let bootstrap = bootstrap.as_value();
+    let bootstrap = &bootstrap.value()?;
     let blocks = record_map_table(bootstrap, "block")?;
     let block_id = &board_target.collection_view_block_id;
     let root = block_value(blocks, block_id).map_err(NotionLiveError::Fatal)?;

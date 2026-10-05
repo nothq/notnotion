@@ -69,22 +69,18 @@ impl NavigationBootstrapResponse {
         }
     }
 
-    pub(super) fn database_value(&self) -> Value {
-        match &self.0 {
-            NavigationBootstrapResponseKind::Complete(response) => response.as_value().clone(),
+    pub(super) fn database_value(&self) -> Result<Value, String> {
+        Ok(match &self.0 {
+            NavigationBootstrapResponseKind::Complete(response) => response.value()?,
             NavigationBootstrapResponseKind::InlineDatabase(response) => response.as_ref().clone(),
-        }
+        })
     }
 
-    pub(super) fn record_map(&self) -> Result<&serde_json::Map<String, Value>, String> {
-        let response = match &self.0 {
-            NavigationBootstrapResponseKind::Complete(response) => response.as_value(),
-            NavigationBootstrapResponseKind::InlineDatabase(response) => response.as_ref(),
-        };
-        response
-            .get("recordMap")
-            .and_then(Value::as_object)
-            .ok_or_else(|| "Notion navigation bootstrap is missing recordMap".to_string())
+    pub(super) fn record_map(&self) -> Result<serde_json::Map<String, Value>, String> {
+        match self.database_value()?.get_mut("recordMap").map(Value::take) {
+            Some(Value::Object(record_map)) => Ok(record_map),
+            _ => Err("Notion navigation bootstrap is missing recordMap".to_string()),
+        }
     }
 
     fn is_complete(&self) -> bool {
