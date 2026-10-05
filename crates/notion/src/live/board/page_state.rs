@@ -61,7 +61,8 @@ impl PageMutationState {
         response: &CompletePageResponse,
     ) -> Result<Self, String> {
         let opaque_unavailable_blocks = response.opaque_unavailable_blocks();
-        let raw_blocks = record_map_table(response.as_value(), "block")?;
+        let response_value = response.value()?;
+        let raw_blocks = record_map_table(&response_value, "block")?;
         let root = raw_blocks
             .get(page_block_id)
             .and_then(loaded_record_value)

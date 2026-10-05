@@ -99,7 +99,7 @@ pub(super) fn card_page_from_response(
     block_id: &str,
     response: &CompletePageResponse,
 ) -> Result<CardPage, String> {
-    let response_value = response.as_value();
+    let response_value = &response.value()?;
     let record_map = response_value
         .get("recordMap")
         .and_then(Value::as_object)

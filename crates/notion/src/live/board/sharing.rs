@@ -93,7 +93,8 @@ fn load_share_page(
 ) -> Result<LoadedSharePage, NotionLiveError> {
     let cache = context.workspace_cache()?;
     let response = load_complete_page_response_with_session(session, target_id.as_str())?;
-    let blocks = record_map_table(response.as_value(), "block")?;
+    let value = response.value()?;
+    let blocks = record_map_table(&value, "block")?;
     let entry = blocks.get(target_id.as_str()).ok_or_else(|| {
         format!(
             "Notion sharing response omitted target block {}",

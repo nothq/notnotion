@@ -1,6 +1,6 @@
 # notnotion
 
-**Notion, without the browser.** 1.33 GB of RAM down to 333 MB. Same workspace, same pages, same pixels, no Electron.
+**Notion, without the browser.** 1.36 GB of RAM down to 258 MB. Same workspace, same pages, same pixels, no Electron.
 
 notnotion is a native Notion client written in Rust on [GPUI](https://www.gpui.rs), the GPU-accelerated UI framework that powers the Zed editor. It signs in with the Notion session you already have and looks exactly like the app you use every day, except it is a single native binary drawing straight to the GPU.
 
@@ -12,16 +12,16 @@ notnotion throws the browser away. No DOM, no JavaScript, no garbage collector. 
 
 | Same page, 1320×860 window | Memory footprint |
 | --- | --- |
-| Notion Desktop (6 processes) | ~1.33 GB |
-| **notnotion** (1 process) | **~333 MB** |
+| Notion Desktop (6 processes) | ~1.36 GB |
+| **notnotion** (1 process) | **~258 MB** |
 
-Measured with macOS's `footprint` tool on a MacBook Pro, 4 October 2026, with both apps showing the same page with an inline board database.
+Measured with macOS's `footprint` tool on a MacBook Pro, 5 October 2026, with both apps showing the same page with an inline board database.
 
 ## Come build it
 
 This is early, and that is the fun part. Here is what is open:
 
-- **Halve the memory again.** Most of notnotion's footprint is Notion's raw JSON record maps, kept after parsing. Parsing them straight into typed records would cut it to a fraction.
+- **Halve the memory again.** notnotion still keeps each loaded page's Notion response as compact JSON so it can apply edits. Parsing it straight into typed records would let it drop that text too.
 - **Notion AI.** The AI panel is drawn pixel for pixel but not wired to a model yet.
 - **Linux and Windows.** Sign-in reuses the Notion Desktop session through macOS today.
 - **Every place we are a pixel off from Notion.** Put the two side by side and file what you see.

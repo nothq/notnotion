@@ -47,7 +47,7 @@ impl LiveBoardMutator {
             .page_responses
             .get(page_id)
             .ok_or_else(|| format!("Notion page {page_id} is missing its cached response"))?;
-        validate_comment_role(response.as_value(), page_id)?;
+        validate_comment_role(&response.value()?, page_id)?;
         let page = super::page::card_page_from_response(page_id, response)?;
         validate_expected_comment_state(&page, request)?;
         validate_mentions(request, visible_users)?;

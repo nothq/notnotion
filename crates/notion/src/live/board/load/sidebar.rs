@@ -110,7 +110,8 @@ pub(crate) fn load_sidebar_children(
     parent_block_id: &str,
 ) -> Result<LoadSidebarChildrenResult, NotionLiveError> {
     let bootstrap = load_complete_page_response_with_session(session, parent_block_id)?;
-    let initial_blocks = record_map_table(bootstrap.as_value(), "block")?;
+    let bootstrap = bootstrap.value()?;
+    let initial_blocks = record_map_table(&bootstrap, "block")?;
     let root = block_value(initial_blocks, parent_block_id)?;
     let space_id = required_string(root, "space_id")?;
     let board_target = BoardTarget::parse(current_board_url)?;

@@ -33,7 +33,7 @@ pub(super) fn build_page_snapshot(
         current_page_shell,
         load_presence,
     } = request;
-    let bootstrap_value = bootstrap.as_value();
+    let bootstrap_value = &bootstrap.value()?;
     let blocks = record_map_table(bootstrap_value, "block")?;
     let root = block_value(blocks, &board_target.collection_view_block_id)?.clone();
     let page_snapshot = card_page_snapshot_from_response(
