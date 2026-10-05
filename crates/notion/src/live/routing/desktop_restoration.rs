@@ -1,28 +1,25 @@
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 use std::{collections::HashMap, fs, io::ErrorKind, path::PathBuf};
 
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 use serde::Deserialize;
 
 use crate::live::NotionLiveError;
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 use crate::live::NotionSessionFailure;
 
 use super::workspace::NonEmptyNotionId;
 
-#[cfg(target_os = "macos")]
-const NOTION_STATE_RELATIVE_PATH: &str = "Library/Application Support/Notion/state.json";
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 const UNGROUPED_TAB_SECTION_ID: &str = "ungrouped";
 
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 pub(super) fn restored_notion_space_id(
     active_user_id: &str,
 ) -> Result<RestoredNotionSpace, String> {
-    let Some(home) = std::env::var_os("HOME") else {
+    let Some(state_path) = notion_state_path() else {
         return Ok(RestoredNotionSpace::Unavailable);
     };
-    let state_path = PathBuf::from(home).join(NOTION_STATE_RELATIVE_PATH);
     let raw = match fs::read_to_string(&state_path) {
         Ok(raw) => raw,
         Err(error) if error.kind() == ErrorKind::NotFound => {
@@ -50,21 +47,33 @@ pub(super) fn restored_notion_space_id(
     }
 }
 
-#[cfg(not(target_os = "macos"))]
+/// Notion Desktop's window and tab state, in its Electron user data directory.
+#[cfg(target_os = "macos")]
+fn notion_state_path() -> Option<PathBuf> {
+    std::env::var_os("HOME")
+        .map(|home| PathBuf::from(home).join("Library/Application Support/Notion/state.json"))
+}
+
+#[cfg(target_os = "windows")]
+fn notion_state_path() -> Option<PathBuf> {
+    std::env::var_os("APPDATA").map(|dir| PathBuf::from(dir).join("Notion").join("state.json"))
+}
+
+#[cfg(not(any(target_os = "macos", target_os = "windows")))]
 pub(super) fn restored_notion_space_id(
     _active_user_id: &str,
 ) -> Result<RestoredNotionSpace, String> {
     Ok(RestoredNotionSpace::Unavailable)
 }
 
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 pub(crate) fn notion_desktop_restoration_has_different_user(
     active_user_id: &str,
 ) -> Result<bool, String> {
     restored_notion_space_id(active_user_id).map(|space| space.is_different_user())
 }
 
-#[cfg(not(target_os = "macos"))]
+#[cfg(not(any(target_os = "macos", target_os = "windows")))]
 pub(crate) fn notion_desktop_restoration_has_different_user(
     _active_user_id: &str,
 ) -> Result<bool, String> {
@@ -72,30 +81,30 @@ pub(crate) fn notion_desktop_restoration_has_different_user(
 }
 
 pub(super) enum RestoredNotionSpace {
-    #[cfg(target_os = "macos")]
+    #[cfg(any(target_os = "macos", target_os = "windows"))]
     Current(NonEmptyNotionId),
-    #[cfg(target_os = "macos")]
+    #[cfg(any(target_os = "macos", target_os = "windows"))]
     DifferentUser,
     Unavailable,
 }
 
 impl RestoredNotionSpace {
-    #[cfg(target_os = "macos")]
+    #[cfg(any(target_os = "macos", target_os = "windows"))]
     pub(super) fn is_different_user(&self) -> bool {
         matches!(self, Self::DifferentUser)
     }
 
-    #[cfg(not(target_os = "macos"))]
+    #[cfg(not(any(target_os = "macos", target_os = "windows")))]
     pub(super) const fn is_different_user(&self) -> bool {
         false
     }
 
     pub(super) fn space_id(&self) -> Result<Option<&NonEmptyNotionId>, NotionLiveError> {
         match self {
-            #[cfg(target_os = "macos")]
+            #[cfg(any(target_os = "macos", target_os = "windows"))]
             Self::Current(space_id) => Ok(Some(space_id)),
             Self::Unavailable => Ok(None),
-            #[cfg(target_os = "macos")]
+            #[cfg(any(target_os = "macos", target_os = "windows"))]
             Self::DifferentUser => Err(NotionLiveError::Session(
                 NotionSessionFailure::ActiveUserMismatch,
             )),
@@ -103,21 +112,21 @@ impl RestoredNotionSpace {
     }
 }
 
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 #[derive(Deserialize)]
 struct NotionDesktopState {
     #[serde(default)]
     history: Option<NotionDesktopHistory>,
 }
 
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 #[derive(Deserialize)]
 struct NotionDesktopHistory {
     #[serde(default, rename = "appRestorationState")]
     app_restoration_state: Option<NotionAppRestorationState>,
 }
 
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 #[derive(Deserialize)]
 struct NotionAppRestorationState {
     windows: Vec<NotionRestoredWindow>,
@@ -125,7 +134,7 @@ struct NotionAppRestorationState {
     tab_spaces: Vec<NotionRestoredTabSpace>,
 }
 
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 impl NotionAppRestorationState {
     fn focused_window(&self) -> Result<Option<&NotionRestoredWindow>, String> {
         let Some(max_focus_order) = self.windows.iter().map(|window| window.focus_order).max()
@@ -201,7 +210,7 @@ impl NotionAppRestorationState {
     }
 }
 
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 #[derive(Deserialize)]
 struct NotionRestoredWindow {
     #[serde(rename = "focusOrder")]
@@ -213,7 +222,7 @@ struct NotionRestoredWindow {
     tabs: Vec<NotionRestoredTab>,
 }
 
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 #[derive(Deserialize)]
 struct NotionRestoredTabSpace {
     #[serde(rename = "tabSpaceId")]
@@ -221,7 +230,7 @@ struct NotionRestoredTabSpace {
     tabs: Vec<NotionRestoredTab>,
 }
 
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 #[derive(Deserialize)]
 struct NotionRestoredTab {
     #[serde(rename = "tabId")]
@@ -230,7 +239,7 @@ struct NotionRestoredTab {
     app_store_state: Option<NotionRestoredAppStoreState>,
 }
 
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "windows"))]
 #[derive(Deserialize)]
 struct NotionRestoredAppStoreState {
     #[serde(default, rename = "currentUserId")]

@@ -4,11 +4,28 @@
 
 notnotion is a native Notion client written in Rust on [GPUI](https://www.gpui.rs), the GPU-accelerated UI framework that powers the Zed editor. It signs in with the Notion session you already have and looks exactly like the app you use every day, except it is a single native binary drawing straight to the GPU.
 
+## Download
+
+| Platform | Get it |
+| --- | --- |
+| macOS, Apple Silicon | [notnotion-macos-arm64.dmg](https://github.com/nothq/notnotion/releases/latest/download/notnotion-macos-arm64.dmg) |
+| macOS, Intel | [notnotion-macos-x86_64.dmg](https://github.com/nothq/notnotion/releases/latest/download/notnotion-macos-x86_64.dmg) |
+| Linux, x86_64 | [notnotion-linux-x86_64.tar.gz](https://github.com/nothq/notnotion/releases/latest/download/notnotion-linux-x86_64.tar.gz) |
+| Windows, x86_64 | [notnotion-windows-x86_64.zip](https://github.com/nothq/notnotion/releases/latest/download/notnotion-windows-x86_64.zip) |
+
+Each download is the whole app: one native binary. No installer, no runtime, nothing else to fetch.
+
+- **macOS**: open the .dmg and drag notnotion into Applications. The first time you open it, go to System Settings › Privacy & Security and click **Open Anyway**.
+- **Linux**: `tar -xzf notnotion-linux-x86_64.tar.gz` and run `./notnotion-linux-x86_64/notnotion`.
+- **Windows**: unzip and run `notnotion.exe`.
+
+Every [release](https://github.com/nothq/notnotion/releases) is built from source by GitHub Actions.
+
 ## Why
 
 Notion Desktop is Electron: a whole copy of Chromium plus Node.js, running a web app across a swarm of helper processes. All of that to show you pages of text.
 
-notnotion throws the browser away. No DOM, no JavaScript, no garbage collector. Every pixel is Rust rendered straight to the GPU through Metal, so it opens fast, scrolls at your display's refresh rate and barely registers in Activity Monitor. And it is pixel perfect: the sidebar, page editor, databases, menus and search match Notion, so there is nothing to relearn.
+notnotion throws the browser away. No DOM, no JavaScript, no garbage collector. Every pixel is Rust rendered straight to the GPU through Metal, Vulkan or DirectX, so it opens fast, scrolls at your display's refresh rate and barely registers in Activity Monitor. And it is pixel perfect: the sidebar, page editor, databases, menus and search match Notion, so there is nothing to relearn.
 
 | Same page, 1320×860 window | Memory footprint |
 | --- | --- |
@@ -23,7 +40,6 @@ This is early, and that is the fun part. Here is what is open:
 
 - **Halve the memory again.** notnotion still keeps each loaded page's Notion response as compact JSON so it can apply edits. Parsing it straight into typed records would let it drop that text too.
 - **Notion AI.** The AI panel is drawn pixel for pixel but not wired to a model yet.
-- **Linux and Windows.** Sign-in reuses the Notion Desktop session through macOS today.
 - **Every place we are a pixel off from Notion.** Put the two side by side and file what you see.
 
 If you have ever watched Notion eat your laptop's memory, or wanted to ship real code on GPUI, pick one and open a PR.
@@ -41,13 +57,15 @@ If you have ever watched Notion eat your laptop's memory, or wanted to ship real
 
 ## How sign-in works
 
-notnotion reuses the session of the Notion Desktop app you already have. The first time it opens, notnotion quits Notion Desktop, relaunches it with a local debugging port, reads your session, and stores it in `~/.notnotion/auth.json`, readable only by you. Nothing is sent anywhere except to Notion.
+notnotion reuses the Notion session you already have. The first time it opens, notnotion quits Notion Desktop, relaunches it with a local debugging port, reads your session, and stores it in `~/.notnotion/auth.json`, readable only by you. Nothing is sent anywhere except to Notion.
 
-So you need Notion Desktop installed and signed in, and for now that means macOS.
+Notion Desktop covers macOS and Windows. Notion ships no Linux app, so there, or anywhere Notion Desktop is missing, notnotion opens Notion's sign-in page in Chrome, Edge, Brave or Chromium, in a separate profile of its own, and picks up the session as soon as you sign in.
 
 ## Build and run
 
-You need macOS, the Xcode command line tools and Rust 1.95 or newer.
+You need Rust 1.95 or newer. The first build compiles GPUI and takes a few minutes.
+
+On macOS, with the Xcode command line tools:
 
 ```bash
 xcode-select --install
@@ -56,7 +74,17 @@ cd notnotion
 cargo run --release
 ```
 
-The first build compiles GPUI and takes a few minutes.
+On Linux, install GPUI's system libraries first:
+
+```bash
+sudo apt install pkg-config clang libasound2-dev libfontconfig-dev libvulkan-dev \
+  libwayland-dev libx11-xcb-dev libxkbcommon-x11-dev
+cargo run --release
+```
+
+On Windows, with the Visual Studio C++ build tools, `cargo run --release`.
+
+`script/package` turns a release build into the downloads above, and `.github/workflows/release.yml` runs the whole thing for every platform when a `v*` tag is pushed.
 
 ## Layout
 

@@ -16,6 +16,7 @@ base64.workspace = true
 chrono.workspace = true
 chrono-tz.workspace = true
 emojis.workspace = true
+futures-util.workspace = true
 gpui.workspace = true
 gpui_components = { package = "notnotion-gpui-components", path = "../gpui-components" }
 image.workspace = true
@@ -33,13 +34,10 @@ serde_yaml.workspace = true
 sha2.workspace = true
 time.workspace = true
 tokio.workspace = true
+tokio-tungstenite.workspace = true
 url.workspace = true
 uuid.workspace = true
 zed_syntax = { package = "notnotion-zed-syntax", path = "../zed-syntax" }
-
-[target.'cfg(target_os = "macos")'.dependencies]
-futures-util.workspace = true
-tokio-tungstenite.workspace = true
 
 [dev-dependencies]
 gpui = { workspace = true, features = ["test-support"] }

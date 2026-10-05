@@ -3,7 +3,6 @@ mod board;
 mod card_page;
 mod comments;
 mod database_view_controls;
-#[cfg(target_os = "macos")]
 mod filter;
 mod launch;
 mod page_icon_file;
@@ -70,7 +69,6 @@ pub use database_view_controls::{
     DatabaseViewControlMutationRequest, DatabaseViewGroup, DatabaseViewGroupKind,
     DatabaseViewGroupState, DatabaseViewSort, DatabaseViewSortDirection, DatabaseViewSortState,
 };
-#[cfg(target_os = "macos")]
 pub use filter::{
     DatabaseAdvancedFilterMutation, DatabaseAdvancedFilterState, DatabaseDateFilter,
     DatabaseDateFilterMode, DatabaseDatePoint, DatabaseDateRange, DatabaseFilterGroup,
