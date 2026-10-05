@@ -1,0 +1,885 @@
+123|123|numbers 123 numeric digits
+accessibility|vitruvian-man-circle|anatomy disability humans people person vitruvian man circle
+activity|activity-rectangle|charts data graphs line statistics stocks organizational rectangle
+add|plus-circle|new plus circle
+airplane|airplane|aircraft airport flight flying pilot plane transportation travel wings
+alarm|alarm-clock|analog asleep awake bedtime clocks
+alert|exclamation-speech-bubble|bubbles communication exclamation speech attention priority
+alien|alien|aliens grays greys science-fiction sci-fi face smile smiling roswell extraterrestrials
+alien-pixel|alien-pixel|aliens space invaders video games pixels
+ambulance|ambulance|asterisk heavy stars life ems emergency medical services paramedic emt technicians response vehicle ambulances hospitals health rescue
+anchor|anchor|anchors boats docking docks marine maritime nautical ships water
+apple|apple|food fruit granny grocery healthy honeycrisp nature smith vegan vegetarian
+apron|apron|chef clothes clothing cooking gardening kitchen garments
+aquarius|aquarius|alchemical alchemy astrology astronomy multiplication zodiac
+arch-bridge|bridge-arch|bridges road water span
+archery|bow-arrow|arrows bows combat hood hunting medieval robin shooting skill sport target weapons
+archive|archive-box|box catalog complete email file mail records repository
+aries|aries|alchemical alchemy astrology astronomy calcination planetary zodiac
+arrivals|airplane-arrival|aircraft airplane airport flight flying landing pilot plane transportation travel wings
+arrow-circle-down|arrow-circle-down|arrow down circle select
+arrow-down|arrow-down-circle|downward south circle
+arrow-down-basic|arrow-down|downward south
+arrow-down-line|arrow-down-line|downward download import save
+arrow-left|arrow-left-circle|west circle
+arrow-left-basic|arrow-left|back backward west
+arrow-left-line|arrow-left-line|west
+arrow-northeast|arrow-northeast|north east upward right
+arrow-northwest|arrow-northwest|north west upward left
+arrow-right|arrow-right-circle|east circle
+arrow-right-basic|arrow-right|east forward
+arrow-right-line|arrow-right-line|east
+arrow-southeast|arrow-southeast|south east downward right
+arrow-southwest|arrow-southwest|south west downward left
+arrow-turn-left|arrow-turn-left|west directions driving
+arrow-turn-right|arrow-turn-right|east directions driving
+arrow-up|arrow-up-circle|north upward circle
+arrow-up-basic|arrow-up|north upward
+arrow-up-line|arrow-up-line|north upward
+arrows-horizontal|arrows-horizontal|left right
+arrows-swap-horizontally|arrows-swap-horizontal|horizontal switch
+arrows-swap-vertically|arrows-swap-vertical|switch vertical
+arrows-vertical|arrows-vertical|upward downward
+art|artwork-frame|display frame landscape museum painting portrait artwork
+asterisk|asterisk|annotation footnote miscellaneous omitted reference star
+atm|cash-machine|automatic cash dollars euros francs krona lira machine money payment pesos pounds rubles teller yen yuan currency currencies
+attachment|paperclip|fastener paperclip
+avocado|avocado|avocados fruit pit food nature vegan vegetarian toast
+baby|baby|babies bathroom changing children diaper humans infants people person restroom table
+baby-bottle|baby-bottle|drinks milk nursing feeding infants breast formula pediatric food
+backpack|backpack|bag book carry educational knapsack learning rucksack school
+backward|arrow-left-heavy|arrow left west heavy
+badge|identification-badge|badges card credentials employee id identification people person lanyard pass
+bag|intravenous-bag|drip drugs hospital intravenously iv
+baggage-claim|baggage-claim|airplane airport baggageclaim checked luggage stow suitcase train travel
+balloon|balloon|anniversary birthday celebrate celebration children
+banana|bananas|bananas bunch food fruit grocery healthy nature peel vegan vegetarian
+barcode|barcode|product retail scan upc
+barricade|traffic-barricade|barrier block construction traffic
+baseball|baseball|baseballs tennis softballs games sports players dugout fields courts pitcher catcher athletics batter diamond racket mlb score home run scoring
+baseball-cap|baseball-cap|apparel caps clothes clothing garments hats headwear wear
+basketball|basketball|courts hoops dunk games sports players athletics slam point guard nba shoot score scoring
+bathtub|bathtub|bathe bathroom cleaning relaxing restroom shower soap spray wash water
+bathtub-shower|bathtub-shower|bathe bathroom cleaning relaxing restroom soap spray wash water
+battery|battery|charge energy power
+battery-charged|battery-electrical-plug|energy power electrical plug
+battery-charging|battery-lightning-bolt|energy power lightning bolt
+bed|bed|blanket furniture guest hotel mattress resting sleeping
+bee|bee|bumblebees honeybees insects stinger stings pollination pollinators wasps
+beer|beer-glass|alcohol ale bar brewski cider drinks food glass grocery pint suds
+beer-bottle|beer-bottle|alcohol ale bar brewski cider drinks suds
+bell|bell|alarm alert ringer sound
+bell-notification|bell-notification|alarm alert ringer sound notifications badges messages comments likes
+bell-off|bell-slash|alarm alert ringer sound slash
+belt|belt|accessories apparel belts clothes clothing feminine garments masculine waist wear
+bicycle|bicycle|bike biking commute cycling transportation vehicle
+bikini|bikini|apparel bikinis clothes clothing feminine garments piece swimsuit two wear
+binoculars|binoculars|look optical view
+blood-pressure|blood-pressure-monitor|circulatory doctor heartbeat medical monitor sphygmomanometer health
+bluetooth|bluetooth|headphones keyboard mouse wireless
+boarding-pass|ticket-airplane|aircraft airplane airport flights flying pilot plane ticket travel wings
+boat|ferry-boat|boats ferry ships vessel watercraft
+bomb|bomb|bombs destroyed delete fatal systems error crashes
+bone|bone|anatomy bones dogs medical skeleton vertebrates health
+book|book-open|bookmarks books guide novel open pages read textbook tome
+book-closed|book-closed|bookmarks books guide novel pages read textbook tome
+bookmark|bookmark|remember saved
+bookmark-outline|bookmark-outline|remember saved
+boombox|boombox|devices electronics entertainment listen loud media music retro technology
+boot|boot|apparel boots clothes clothing fashion feet foot garments shoes style stylish wear
+bounce|arrow-bounce-heavy|arrow heavy emails messages
+bowl|bowl|dishware food mixing pasta ramen rice soup dishes meals eating dinner lunch breakfast
+bowl-food|bowl-food|dishware mixing pasta rice curry cereal snacks dishes meals eating dinner lunch breakfast
+bowling|bowling-ball-pins|pins ball strike spare alley sports players games athletics turkey league
+bra|bra|apparel bras breasts clothes clothing feminine fitting intimates tops lingerie sizing undergarments underwear
+brain|human-profile-brain|body cord head humans learning medical mind nerve nervous organ smart spinal thinking thought health profile
+branch|arrows-branch|arrow deviate diverge divide fork git split arrows
+branch-create|branch|branches git fork merge split repository
+branch-fork|branch-fork|branches git repository
+branch-merge|branch-merge|branches git repository
+bread|bread|bakery baking food gluten grocery loaf toast vegetarian
+briefcase|briefcase|bag business messenger portfolio satchel work office
+brightness-high|brightness|brightnesshigh camera display exposure light luminosity photography photos
+broccoli|broccoli|vegetable vegetarian vegan food nature
+broom|broom|brooms cleaner cleaning custodial custodian janitor sweeping dirty floors
+broom-and-dustpan|broom-dustpan|brooms cleaner cleaning custodial custodian janitor sweeping dirty floors
+browser-stop|x-octagon|cancel end octagon x
+bug|bug|beetle debugging development insect issue ladybug nature radar software squash technology tracker
+bugle|bugle|alarm alert bugles military signal trumpet warning noise music sounds
+bullseye|target-arrow|darts target archery aim concentric circles arrow project goal objective
+bunk-bed|bunk-bed|blanket children furniture guest hostel kids mattress resting sleeping
+burger|burger|cheeseburger fast food hamburger meal sandwich patty beef buns
+burst|burst|burst star shine sparkle radiate status
+bus|bus|commute ground motorcoach public school shuttle transit transportation travel vehicle
+bus-double-decker|bus-double-decker|commute ground motorcoach public shuttle transit transportation travel vehicle
+bus-metro|bus-metro|commute ground motorcoach public school shuttle transit transportation travel vehicle
+butterfly|butterfly|butterflies insects wings winged flight flying moths metamorphosis
+button|pin-back-button|buttons pin safety back
+cactus|cactus|cacti cactuses desert plant dry succulents
+cafe|coffee-cup|coffee cup drinks food mug teacup
+cake|cake|anniversary birthday candle celebrate celebration children food
+calculator|calculator|math numbers tally
+calendar|calendar|appointment date day month reservation reserve week deadline
+calendar-day|day-calendar|appointment date reservation reserve deadline
+calendar-month|month-calendar|appointment reservation reserve year deadline
+calendar-week|week-calendar|appointment reservation reserve deadline
+camera|camera|device digital dslr electronics film media photography photos technology
+camera-off|camera-slash|device digital dslr electronics film media photography photos technology slash
+camera-roll|rectangles-landscape|media photographs photography photos pictures landscape rectangles
+camera-roll-portrait|rectangles-portrait|media photographs photography photos pictures rectangles
+camping-tent|camping-tent|campgrounds nature outdoors pitch tents travel
+camping-trailer|camping-trailer|campgrounds nature outdoors trailers travel vehicles
+cancer|cancer|alchemical alchemy astrology astronomy dissolution zodiac
+candy|candy|candies candied sweets peppermints wrapper treats halloween sugar
+capricorn|capricorn|alchemical alchemy astrology astronomy fermentation zodiac
+car|car|automobile driving transit transportation travel vehicle
+card|identification-card|badges credentials employee id identification people person
+card-club|playing-card-club|blackjack cards gambling games play playing poker suit gamble
+card-diamond|playing-card-diamond|blackjack cards gambling games play playing poker suit gamble
+card-heart|playing-card-heart|blackjack cards gambling games play playing poker suit gamble
+card-spade|playing-card-spade|blackjack cards gambling games play playing poker suit gamble
+cards|playing-cards|blackjack fan gambling games hanafuda hand play playing poker gamble
+carrot|carrot|food grocery healthy nature vegan vegetables vegetarian
+cash|currency-cash|dollars euros francs krona lira money payment pesos pounds rubles yen yuan currency currencies
+cash-register|cash-register|checkout clerk money payment point pos purchase retail sale shop store
+cassette|tape-cassette|audio compact entertainment media mixtape music retro tape
+castle|castle|battlements castles combat flag fortified fortress garrison medieval military parapet stronghold turret walls
+castle-japanese|castle-japanese|battlements castles combat flag fortified fortress garrison medieval military stronghold walls osaka edo
+cat|cat|cats feline pets domesticated farm feral meowing purring animals
+categories|rectangle-stack|category genres kinds stack types rectangle
+cd|compact-disc|albums discs disks optical records compact
+cellular|radio-waves|tower signal call communications communicate telephone radio 5g 4g 3g edge lte data transmission waves
+chair|chair|couch lounge entertainment living room sofa tv watch
+champagne|champagne-glass|alcohol bar bubbly celebrate celebration drinks flute glass luxury new sparkling white years
+champagne-bottle|champagne-bottle|alcohol bar bubbly celebrate celebration drinks luxury new sparkling white years
+chart|chart-bar-vertical|bars charts data graphs statistics organizational vertical
+chart-alternate|chart-bar-horizontal|bars charts data graphs statistics organizational horizontal
+chart-area|chart-area|charts data graphs statistics organizational
+chart-donut|chart-donut|charts data graphs statistics organizational
+chart-line|chart-line|charts data graphs statistics organizational
+chart-mixed|chart-bar-line|bars charts data graphs line organizational
+chart-pie|chart-pie|charts data graphs statistics organizational
+chat|speech-bubble|bubbles comment communication message speech talk
+chat-user|user-speech-bubble|bubbles comment communication message speech talk people person
+check|check|checks cheque deposits paycheck payments payroll signature
+checklist|checkmark-list|items list checkmark outline structure view todo productivity task project
+checkmark|checkmark-circle|check complete correct finished selected selection circle task todo project
+checkmark-line|checkmark|check complete correct finished selected selection task todo project
+checkmark-square|checkmark-square|check complete correct finished selected selection voted checkbox voting task todo project
+chemistry|erlenmeyer-flask|beaker bottle container erlenmeyer flask science
+cherries|cherries|food fruit grocery healthy nature pair sweet vegan vegetarian
+chess-bishop|chess-bishop|board games piece playing player
+chess-king|chess-king|board crown games piece playing players
+chess-knight|chess-knight|board games horse piece playing players
+chess-pawn|chess-pawn|board games piece playing players
+chess-queen|chess-queen|board crown games piece playing players
+chess-rook|chess-rook|board castle fortress games piece players turret
+chevrons-vertical|chevron-up-down|dropdown disclosure upward downward
+chicken|chicken|chickens eggs fowl rooster cocks hens animals birds livestock
+child|child|children daughter humans kid-friendly kids people person son
+chili-pepper|chili-pepper|chiles chilis chilli heat hot jalapeño peppers spicy
+christmas-tree|tree-christmas|conifer forest leaves nature plant wood pine spruce fir ornaments decoration seasonal christianity holidays
+church|church|baptist catholicism christianity christians churches god jesus lutheran methodist pentecostal prayers protestant religions worship
+cigarette|cigarette|smoking vaping vaporizer smoker
+circle|circle-outline|radio button selection eighths outline
+circle-alternate|circle|shapes eighths
+circle-arrows-horizontal|arrows-left-right-circle|left right east west
+circle-arrows-vertical|arrows-up-down-circle|arrow north upward south downward
+circle-dashed|circle-dashed|shapes eighths temporary incomplete unfinished invisible invisibility
+circle-dot|dot-circle|radio button selection circle
+circle-five-eighths|circle-5-8th|shapes 5 8 8th
+circle-four-eighths|circle-4-8th|shapes 4 8 8th
+circle-one-eighth|circle-1-8th|shapes eighths 1 8 8th
+circle-remove|circle-minus|minus dash subtract
+circle-seven-eighths|circle-7-8th|shapes 7 8 8th
+circle-six-eighths|circle-6-8th|shapes 6 8 8th
+circle-three-eighths|circle-3-8th|shapes 3 8 8th
+circle-two-eighths|circle-2-8th|shapes 2 8 8th
+city|cityscape|buildings business metro place town urban cityscape
+clarinet|clarinet|band entertainment instrument musical oboe orchestra symphony wind woodwinds
+clear|x-circle|cancel close delete selected selection x circle
+clipping|document-square|document file page paper snippet square
+clock|clock|analog clocks hours minutes timer
+clock-alternate|clock-outline|analog clocks hours minutes timer outline
+close|x|cancel clear delete x
+clothes-button|clothes-button|buttons sewing alterations garment fashion textiles stitching seamstress seamster needleworker
+clothes-iron|clothes-iron|flatten ironing pressing smooth wrinkles steamer
+cloud|cloud|storage server icloud
+cloud-no|cloud-x|unavailable missing disconnected x
+cloud-off|cloud-slash|unavailable missing disconnected slash
+cloud-yes|cloud-checkmark|check checkmark complete correct finished selected selection
+cloudy|weather-cloud|weather
+clover|clover|clovers trefoils leaves trifoliate nature plants
+clover-four-leaf|clover-four-leaf|clovers four-leaf good lucky rare leaves nature plants
+coaster|drink-coaster|bar beer drink
+coat|coat|apparel clothes clothing coats garments jackets outerwear overcoats wear winter
+cocktail|cocktail-glass|alcohol bar drinks martini mixed olive glass
+code|angle-brackets-solidus|coders engineers hackers hacking html programmers angle brackets solidus
+code-scan|quick-response-code|qr quick response
+coffee|coffee-paper-cup|cup drinks sleeve tea to-go paper
+coffee-maker|coffee-maker|decaf drinks glass handle java jug pitcher pot tea
+color-palette|paint-palette|artist colors designer paint painting
+color-picker|dropper|colors eyedropper dropper
+color-swatch|swatch-color|colors craft create
+column|columns|columns icons view
+comb|comb|beauty brushes care combs hair
+command-line|command-line-rectangle|coders engineers hackers hacking programmers terminal rectangle
+comment|plus-speech-bubble|add bubbles chat communication message new speech talk plus
+compass|compass|browser navigate navigation navigator safari
+compose|pencil-square-outline|new write pencil square outline
+compressed-document|document-zipper|file page paper compressing zip rar 7z gzip tar iso zipper
+computer|computer|computers desktop devices electronics imac monitor technology
+computer-chip|computer-chip|computers electronics hackers hacking processors technology chip
+conceal|hat-sunglasses|disguise espionage hat hidden hide incognito secret spying sunglasses invisible invisibility
+condense|arrows-inward|arrows compressing condensed condensing reduce reducing shrink shrunk inward
+confetti-ball|confetti-ball|celebrations parades weddings glitter parties
+confetti-party-popper|confetti-party-popper|ball celebrations parades weddings glitter parties
+conifer-tree|tree-conifer|arbor christmas forest leaf leaves nature park plant wood pine spruce fir
+connecting-flight|airplane-transfer|aircraft airplane airport connection flying pilot plane transfer travel wings
+construction-crane|construction-crane|cranes machines hoist ropes wires chains lifting equipment
+contrast|shade-contrast|difference tonal tones shade
+conversation|speech-bubbles|bubbles chat communication messages messenger speech talk
+copy|documents|duplicate file documents
+corn|corn|cornfield maize kernel cob elote husk farming farms farmer vegetarian vegan food vegetables
+couch|couch|entertainment living room sofa tv watch
+cow|cow|cows animals bovine cattle livestock milk dairy beef bulls calf calves
+crab|crab|crabs decapods crustaceans pincers exoskeleton animals seafood ocean freshwater tropical
+crayon|crayon|coloring kids children drawing art
+create|paint-brush-square-outline|art compose new painting brush square outline
+credit-card|credit-card|chip debit emv money payment magnetic stripe
+crop|crop|composition edges photography photos size
+crutch|crutch|crutches mobility aid legs injuries injury underarm disability
+cupcake|cupcake|cupcakes fairy decoration candy frosting icing baking food
+currency|currency|cash dollars euros francs krona lira money payment pesos pounds rubles yen yuan currencies coins
+currency-coin|currency-coin|cash dollars euros francs krona lira money payment pesos pounds rubles yen yuan currencies coins
+cursor|cursor|computers engagement interaction interface mouse technology
+cursor-button|cursor-button|click computers engagement interaction interface mouse technology press
+cursor-click|cursor-click|computers engagement interaction interface mouse technology
+customs|airport-customs|airport arrivals baggage departures immigration inspection international luggage officer official passport suitcase travel
+cut|scissors|barber hair scissors stylist trim
+dairy|milk-carton|allergen allergy carton cream drinks milk
+daisy|flower-daisy|allergen allergy bloom blossom floret flower nature plant
+dance|mirror-ball|disco mirrorball dancing party music club concert venue rollerskating nightlife ball
+darks|shade-dark|difference tonal tones shadows blacks shade
+dashboard|dashboard|board fuel gauge meter odometer speedometer statistics stats status
+database|stacked-discs|cloud databases servers storage technology stacked discs
+defibrillator|heart-lightning-bolt|defibrillators heart lightning bolt
+delete|trash-can|bin garbage recycle trash can
+delivery-truck|delivery-truck-profile|shipping transit vehicle profile
+dental|toothpaste-toothbrush|cleaning dentist gums hygiene hygienic teeth toothbrush toothpaste
+departures|airplane-departure|aircraft airplane airport flight flying pilot plane takeoff transportation travel wings
+dependency|square-arrow-uturn-right-square|dependencies subtasks arrow squares uturn right
+description|description|description text lines paragraph
+dialogue|question-speech-bubble|bubbles communication question speech
+die1|die-1|dice die gamble games one play gambling craps 1
+die2|die-2|dice die gamble games play two gambling craps 2
+die3|die-3|dice die gamble games play three gambling craps 3
+die4|die-4|dice die four gamble games play gambling craps 4
+die5|die-5|dice die five gamble games play gambling craps 5
+die6|die-6|dice die gamble games play six gambling craps 6
+dining|fork-plate|chef cooking eatery flatware food fork kitchen knife meal plate restaurant silverware utensil
+directional-sign|directional-sign|left right road roadmap
+directional-sign-left|directional-sign-left|road west roadmap
+directional-sign-right|directional-sign-right|road east roadmap
+directions|arrow-turn-right-diamond|arrow driving navigation sign street turn right diamond
+dish-soap|dish-soap-bottle|bottles cleaner cleaning detergent dishes washing
+dna|dna|acid chromosomes creature deoxyribonucleic genetics humans medical organism strands health
+do-not-disturb|door-hanger|door hotel privacy private room sign hanger
+document|document|file page paper
+dog|dog|cats canine pets domesticated feral barking howling animals pooch
+donkey|donkey|american animal democratic election nature party political politics
+download|cloud-arrow-down|cloud icloud arrow
+downward|arrow-down-heavy|arrow south heavy
+drafts|pencil-list|communication compose email write pencil list
+dress|dress|apparel clothes clothing dresses fashion feminine formal garments style stylish wear
+drink|drink|cup drinks glass soda water
+duck|duck|ducks eggs waterfowl animals birds lakes rivers
+duster|feather-duster|cleaner cleaning custodial custodian feathers janitor
+ear|ear|ears hearing body human canal listening volume
+ear-hearing-aid|ear-hearing-aid|ears body human canal listening volume aids
+earthquake|house-earthquake|damage disaster fault ground home house natural nature rift shaking tremor vibration
+egg|egg|allergen allergy breakfast chicken food grocery hen protein vegetarian
+eject|eject|discs disks remove
+electric-guitar|guitar-electric|band bass entertainment instrument musical orchestra rock strings
+electric-plug|electrical-plug|charged charging energy power electricity ac alternating current outlet cords cables wires prongs electronics shocked electrical
+elephant|elephant|american animal election nature party political politics republican
+elevator|elevator|down lift up
+emoji|face-smiling|cheerful content delighted emoticon emotion face happy joyful pleased smiley smiling
+emoji-angry|face-angry|annoyed cross emoticon emotion enraged face frustrated infuriated irritated mad smiley temper
+emoji-big-sad|face-frown-big|dejected depressed emoticon emotion face melancholy miserable smiley unhappy frown
+emoji-disappointed|face-disappointed|bummed discouraged distressed emoticon emotion face frustrated smiley upset
+emoji-grinning|face-grinning|cheerful content delighted emoticon emotion face happy joyful pleased smiley smiling
+emoji-grinning-smiling-eyes|face-grinning-smiling-eyes|cheerful content delighted emoticon emotion face happy joyful pleased smiley
+emoji-heart-eyes|face-heart-eyes|delighted elated emoticon emotion face grinning happy love overjoyed smiley smiling
+emoji-neutral|face-neutral|disinterested emoticon emotion face impartial meh smiley
+emoji-sad|face-frown|dejected depressed emoticon emotion face melancholy miserable smiley unhappy frown
+emoji-smiling-eyes|face-smiling-eyes|cheerful content delighted emoticon emotion face happy joyful pleased smiley
+emoji-sunglasses|face-sunglasses|cool emoticon emotion face rad smiley smiling stylish trendy
+emoji-surprised|face-gasp|emoticon emotion face smiley gasp ooh wow gosh golly gee willikers shocked startled
+emoji-winking|face-wink|emoticon emotion face smiley smiling
+error|exclamation-octagon|alert exclamation stop octagon attention priority
+escalator|escalator|down up floors levels escalate
+exclamation-mark|exclamation|important urgent attention priority
+exclamation-mark-double|exclamations|important urgent exclamations attention priority bang
+exit|exit|egress exits out way
+expand|arrows-outward|arrows outward expanding expanded enlarge fullscreen
+extension|puzzle-extension|plug-ins plugins extensions puzzle
+fabric-swatch|swatch-fabric|craft create sample
+facial-tissues|facial-tissues|facialtissues nasal nose sanitary sick sneezing tissue
+factory|factory|manufacturing production
+fan-deck|swatch-book|craft create fandeck swatchbook book
+feather|feather|birds animals fowl chickens ducks parrots eagles turkey plumage plumology flight flying aviation avian
+feed|social-media-post|network news post social media
+filtered|filter|parameters refine variables
+fire|fire|blaze burning flames flammable heat hot trending
+fire-extinguisher|fire-extinguisher|fireextinguisher fireman firemen safety
+fire-truck|fire-truck|fires engine lorry emergency response firefighters firefighting rescue vehicle
+fireworks|fireworks|explosives pyrotechnics entertainment celebration holidays fourth july bastille days festivals china chinese new years
+first-aid|plus-heavy|doctor firstaid hospital kit medical nurse health plus heavy
+first-aid-kit|first-aid-kit|doctor firstaidkit hospital medical nurse health
+fish|fish|allergen allergy animal food grocery nature pescatarian
+flag|flag|claim mark report territory
+flag-checkered|flag-checkered|claim mark report finish line completed completion races racer racing cars indy indianapolis formula sports players games sportscar autos stockcars
+flag-pennant|flag-pennant|claim mark report territory
+flag-swallowtail|flag-swallowtail|claim mark report territory
+flash|lightning-bolt|bolt camera lightning photography photos
+flashlight|flashlight|bright emergency illuminated on safety view
+flatware|fork-spoon-knife|chef cooking dining eatery food fork kitchen knife restaurant silverware spoon utensil
+fleur-de-lis|fleur-de-lis|fleur-de-lis fleur-de-lys lily lilies flowers french france decoration symbol european heraldry saints
+flood|house-flood|disaster flooding floods home house natural nature overflowing water
+fog|weather-cloud-fog|cloudy foggy misty weather
+folder|folder|files group directory directories project
+follow|user-plus|add friend new social twitter user plus
+following|user-checkmark|added follow friend social twitter user checkmark
+font|font|text type typography format font letters alphabet name
+food-and-drink|drink-burger|cheeseburger drinks fast grocery hamburger meal sandwich soda soft burger
+football|football|sports games players footballs american gridiron rugby stadium half-time quarterback athletics nfl fumble huddle blitz scramble endzone goal kick throw score scoring
+forest-fire|tree-conifer-fire|blaze burning conifer disaster fires flames forests heat hot natural nature tree
+fork|fork|chef cooking dining eatery flatware food kitchen restaurant silverware utensil
+fork-and-knife|fork-knife|chef cooking dining eatery flatware food kitchen restaurant silverware utensil
+formula|formula|formula math equation calculate sum sigma
+forward|arrow-right-heavy|arrow east right heavy
+fragile|wine-glass-broken|box broken delivery glass package wine
+friends|user-2|couple face head humans monogamous monogamy pair people person relationship users 2
+frying-pan|frying-pan-egg|chef cooking cookware food kitchen pans skillet stovetop egg
+fuel|fuel|cars gas station
+game-pawn|game-pawn|games board pieces players playing toys
+garlic|garlic|food vegan vegetarian bulb plant vampires
+gavel|gavel|auctions court judge judgment judiciary jury law legal
+gear|gear|cogs gears preferences settings
+gears|gears|cogs preferences settings
+gem|gem|gemstone previous jewelry mineral crystal luster rare rarity valuables diamonds rubies ruby sapphires emeralds amethysts
+gemini|gemini|alchemical alchemy astrology astronomy fixation zodiac
+geography|globe-desk|earth global globe international language map world desk
+ghost|ghost|ghosts face soul death dead spirit apparitions haunts phantoms poltergeists shades specters spooks wraiths demons ghouls halloween spooky scary silly
+gift|gift-box|birthday celebration christmas gifts giving hanukkah kwanzaa presents box
+git|git|branches merge pull request repository
+glasses|glasses|observe reading seeing sight view
+globe|globe|earth global international language map translate translation world
+golf|golf|sports games players golfing athletics putting holes driver wedge course tee bunkers sand green water stroke match birdie bogey eagle albatross hole-in-one
+government|capitol-building|building capitol election laws legal official political politics
+gradebook|book-school|book card educational grades learning report school scores
+graduate|graduation-cap|academy college educational graduation institution learning teaching university cap
+grapes|grapes|fruit berry berries vines winemaking raisins wines vegan vegetarian
+grave|gravestone|cemetery dead death deceased flowers gravestones headstones respects tulips
+grid|grid-square-2x2|icons squares view 2 2x2
+grid-dense|grid-square-3x3|icons squares view 3 3x3
+grid-wide|grid-rectangle-2x2|icons rectangles view 2 2x2
+grid-wide-six|grid-rectangle-2x3|icons rectangles view 2 3 2x3
+grocery|milk-carton-apple|apple carton cream dairy drinks food fruit groceries healthy milk shopping store vegetarian
+groups|user-3|board corporate face friends head humans meeting pair people person polyamorous polyamory relationship teams users 3
+guitar|guitar-acoustic|acoustic band entertainment instrument musical orchestra rock strings
+gym|dumbbell|barbells weightlifting weights workout dumbbell
+hail|weather-cloud-hail|cloudy freezing precipitation snow weather
+hair-care|shampoo-conditioner-bottles|bathe bathing conditioner containers cream gel shampoo shower bottles
+hairdryer|hair-dryer|beauty blow care dryers drying hair
+hammer|hammer|building claw developer developing hanging manufacturing mounting tools
+hanafuda|hanafuda|cards fan flower gambling games hand japanese playing gamble koi-koi hachi-hachi
+hand|hand|block privacy private restricted restriction secure security stop
+handbag|handbag|carry doctor duffel purse
+hanger|hanger|cleaning closet clothes dry hook hung laundry clothing
+hare|rabbit|animal bunny fast nature rabbit speed
+hashtag|number-sign|hash number octothorpe pound sign
+headphones|headphones|accessibility audio earphones entertainment listen media music sound
+headset|headphones-microphone|accessibility audio earphones support customer help headphones listen sound video gaming game microphone
+heart|heart|favorite like love relationship
+heart-box-bow|heart-box-bow|valentines valentine’s day holidays celebration love feast chocolates candies candy heart-shaped romance
+heart-outline|heart-outline|favorite like love
+heart-rate|heart-rate|doctor emergency healthcare healthy heartrate monitor medical
+heart-rate-monitor|heart-rate-rectangle|doctor emergency healthcare healthy heartratemonitor medical rectangle
+heartbroken|heart-broken|breakup dislike favorite heart love split broken
+helicopter|helicopter|chopper flight flying pilot
+helm|helm|boats helms marine maritime nautical ships water
+help-alternate|question-circle|question circle
+hexagon|hexagon-outline|sixths shapes 6 outline
+hexagon-alternate|hexagon|sixths shapes 6
+hexagon-dashed|hexagon-dashed|sixths shapes 6 temporary incomplete unfinished invisible invisibility
+hexagon-five-sixths|hexagon-5-6th|shapes 5 6 6th
+hexagon-four-sixths|hexagon-4-6th|shapes 4 6 6th
+hexagon-one-sixth|hexagon-1-6th|sixths shapes 1 6 6th
+hexagon-three-sixths|hexagon-3-6th|shapes 3 6 6th
+hexagon-two-sixths|hexagon-2-6th|shapes 2 6 6th
+highball|highball-glass|ale beer brewski cocktail cup drinks glass soda suds tumbler water
+history|clock-arrow-counter-clockwise|backup browser past webpages websites clock arrow counter clockwise
+home|house|house place residence home
+hot-air-balloon|hot-air-balloon|balloons flight sky transportation travel vehicles
+hourglass|hourglass|analog clocks hours minutes sand timer
+hurricane|hurricane|cyclone disaster monsoon natural nature storm tropical typhoon whirlwind
+ice-skate|ice-skate|blades figure skates sports athletics skating players games hockey rinks athletics
+immigration|airport-immigration|airport arrivals customs departures inspection international officer official passport travel
+inbox|tray|communication email mail mailbox outbox tray
+infinity|infinity|forever eternity eternal perpetual perpetuity infinite
+info-alternate|information-circle|information help desk support details circle
+inline-skate|inline-skate|athletics roller skates rollerblades skating sports wheels players games hockey rinks athletics
+invitation|envelope-open|communication email enquire envelope inquire inquiry invite mail message open
+iterate|dot-arrow-counter-clockwise|iteration circular repeat process dot arrow counter clockwise
+jack-o-lantern|jack-o-lantern|jack-o-lantern pumpkins halloween will-o-the-wisps lighting candles carving carved faces
+jar|cosmetic-jar|containers cream gel hair jars product twist cosmetic
+judicial-scales|judicial-scales|court judge judgment judiciary jury law legal
+junk|container-x|box email mail spam container x
+key|key|code lock passcode password privacy private secure security
+key-antique|key-antique|code lock passcode password privacy private secure security old treasure
+keyboard|keyboard-rectangle|input type typing write rectangle
+keyboard-alternate|keyboard|input type typing write
+keypad|keypad|number numeric pad telephone
+kind|circle-square-triangle|category filter genre kinds refine sort style types variety shapes squares circles triangles
+kite|kite|kites flying flight wings lift drag festivals hobbies hobby recreation
+knife|knife|chef cooking dining eatery flatware food kitchen restaurant silverware utensil
+knife-kitchen|knife-kitchen|knives food cooking chef paring bread serrated steel blade cut slice dice
+language|language-speech-bubbles|international interpretation interpreter translate translation translator speech bubbles
+laptop|laptop-computer|computers devices electronics macbook notebook technology
+laundry-basket|laundry-basket|chores clean clothes clothing dirty laundromat
+laundry-detergent|laundry-detergent|bottles cleaner cleaning clothes washing
+laundry-dryer|laundry-dryer|appliance cleaning clothes drying garments machine
+laundry-washer|laundry-washer|appliance cleaning clothes garments machine washing
+layers|stacked-squares|hierarchy layered organization organize stacked squares
+leaf|leaf|biology ecology environmental green leaves
+leaf-monstera|leaf-monstera|delicious deliciosa plants leaves swiss cheese tropical houseplant
+lemon|lemon|lime fruit food citrus pucker sour vegan vegetarian juice pulp rind citric lemonade meringue
+leo|leo|alchemical alchemy astrology astronomy digestion zodiac
+libra|libra|alchemical alchemy astrology astronomy sublimation zodiac
+library|classical-building|academy bank building business college commerce government university classical
+light-bulb|light-bulb|energy idea power
+lights|shade-light|difference tonal tones highlights whites shade light
+link|chain-link|chains hyperlink links
+lipstick|lipstick|beauty colors cosmetics lipsticks makeup
+list|list-bullet|items outline structure view bullet
+list-indent|list-bullet-indent|indentation nested tabbed hierarchy bullet
+litter-disposal|person-trash-can|bin garbage receptacle trash waste person can
+location|location-arrow|arrow navigation
+lock|lock|code padlock passcode password privacy private secure security
+lock-keyhole|lock-keyhole|code lockkeyhole padlock passcode password privacy private secure security unlock
+log-in|arrow-in-door|arrow door sign
+log-out|arrow-out-door|arrow door sign
+long-bone|bone-long|anatomy bones medical skeleton vertebrates health
+long-sleeve-shirt|shirt-long-sleeve|apparel clothes clothing feminine masculine shirts tops wear blouses t-shirt tshirt
+looped-square|looped-square|cmd command modifier place of interest
+lost-and-found|umbrella-mitten|glove mitten umbrella
+lounge|lounge|couch living room sofa therapist tv watch
+luggage|luggage|airplane airport baggage carry-on checked stow suitcase train travel
+luggage-cart|baggage-cart|airport baggage carry-on checked delivery station stow suitcase travel
+lungs|lungs|air body breathe breathing humans medical organ oxygen respiratory health
+magic-wand|magic-wand|enhance instant sparkles
+magnet|magnet|magnetized magnetic
+mahjong|mahjong|asia china chinese dragon games hong kong japanese red tile
+mail|envelope-closed|communication contact email envelope message closed
+makeup-brush|makeup-brush|beauty blush cosmetics powder tool
+mandir|mandir|gods hindu mandirs prayers religions worship
+map|map-folded|directions location navigation roadmap folded
+map-pin|map-pin|location mappin place
+map-pin-alternate|map-pin-triangle|location place triangle
+mathematics|mathematics|addition calculator maths multiplication subtraction
+meat|meat|beef food grocery pork steak t-bone
+medication|medication|medicine medical doctor pharmacy pharmacist prescription prescribe treatment dose drugs bottle tablet capsule health
+meeting|people-meeting|board corporate friends groups humans people person teams
+megaphone|megaphone|megaphones announcements bullhorns protests shouting leaders leading amplify amplifier speaking speaker speech
+menorah|menorah|temple hanukkah candles candelabrum candelabra jewish ceremonial seasonal holidays
+menstrual-pad|menstrual-pad|feminine health napkin pads reproduction reproductive sanitary vaginal
+merge|arrows-merge|arrows blend combine
+metronome|metronome|instrument music orchestra tempo time
+microphone|microphone|amplification amplified sound voice
+microphone-off|microphone-slash|amplification amplified mute sound voice slash
+microscope|microscope|biology cells examination examine science
+microwave|microwave|appliance chef cooking food kitchen oven radiation reheating
+midtones|shade-midtone|difference tonal grays greys shade
+mirror|table-mirror|beauty cosmetics makeup mirrors table
+mobile|baby-mobile|babies baby bed children crib toddler toy
+monorail|monorail|levitation maglev magnetic train vehicle
+moon|moon|clear half lunar nighttime weather
+mop|mop|buckets cleaner cleaning custodial custodian janitor mops pails sanitation wash floors dirty
+mop-and-bucket|mop-bucket|buckets cleaner cleaning custodial custodian janitor mops pails sanitation wash floors dirty
+more|ellipsis|dots elipsis ellipsis
+mosque|mosque|allah god islam mecca mohammed mosques muhammad muslim prayers prophet religions worship
+motorcycle|motorcycle|bike motorbike racing sport transportation travel vehicle
+mountains|mountains|alps distance elevation hike hill peaks pinnacle range sierra summit zoom
+mouth|mouth|body communication face humans kiss lips loud medical mouths quiet speaking speech health
+move|folder-arrow-right|files folder directory directories arrow right
+move-document|document-arrow-right|file arrow right
+movie|filmstrip|entertainment film media strip video filmstrip
+movie-camera|movie-camera|entertainment film media photography photos strip video
+movie-clapboard|clapperboard|clapperboard director entertainment film media video
+movie-clapboard-play|clapperboard-play|clapboardplay clapperboard director entertainment film media video
+mushroom|mushroom|toadstool spore fungus fungi poisonous morel vegetarian vegan foraging forage
+music|music-note-8th-beamed|beamed eighth entertainment genre harmony instrumental media musical notes song 8 8th
+music-album|music-album|cd entertainment media notes record
+music-artist|stage-microphone|concert entertainment media microphone show sing song stage
+navigation|location-arrow-circle|arrow directions location circle
+necktie|necktie|apparel clothes clothing formal garments masculine neckties wear
+network|network|ethernet internet
+new-alert|exclamation-new-badge|badges offer sale special exclamation attention priority
+new-badge|new-badge|badges offer sale special
+new-document|document-plus|add file page paper plus
+new-folder|folder-plus|add files plus directory directories
+news|newspaper|feed headline paper story newspaper
+no|circle-slash|ban block restricted restriction stop unavailable warning circle slash
+no-entry|no-entry|block limit private restricted restriction
+note-eighth|music-note-8th|entertainment genre harmony instrumental media music musical notes song 8 8th
+note-half|music-note-half|entertainment genre harmony instrumental media music musical notes song
+note-quarter|music-note-quarter|entertainment genre harmony instrumental media music musical notes song
+note-sixteenth|music-note-16th|entertainment genre harmony instrumental media music musical notes song 16 16th
+note-sixteenth-beamed|music-note-16th-beamed|entertainment genre harmony instrumental media music musical notes song 16 16th
+note-whole|music-note-whole|entertainment genre harmony instrumental media music musical notes song
+notification|app-notification|app badges messages alert
+notion|notion|notion
+numero|no.|number identification primary key
+nut|nut|allergen allergy food grocery kernel nature nuts
+octagon|octagon|shape eight 8
+official-document|document-seal|documents seal certified certifiable certificate
+onion|onion|onions vegetarian vegan food bulbs vegetables
+orange|orange|citrus food fruit grocery healthy mandarin nature vegan vegetarian
+orbit|orbit|astronomy lunar moon planetary sun
+ornament|holiday-ornament|christmas decoration holiday ornaments tree
+oven|oven|appliance chef cooking food heating kitchen stove
+package|package|box delivery shipping
+paifang|paifang|china chinese folk gods paifangs prayers religions worship
+paint-brush|paint-brush|art colors paintbrush
+paint-brush-wide|paint-brush-wide|art colors paintbrush wide
+paint-bucket|paint-bucket|art colors fill
+paint-roller|paint-roller|art colors
+palm-tree|tree-palm|arbor island leaf leaves nature park plant travel tropical vacation wood
+pants|pants|apparel bottoms clothes clothing feminine garments legs masculine slacks trousers wear
+paper-towels|paper-towels|absorb cleaning wipe wiping
+parking|parking-circle|car garage lot vehicle circle
+parking-no|parking-circle-slash|car garage lot vehicle circle slash
+partly-cloudy-day|weather-cloud-sun|daytime sun weather
+partly-cloudy-night|weather-cloud-moon|lunar moon nighttime weather
+passport|passport|airport document global id identification legal travel world
+paste|clipboard|appointment clipboard research services
+peace|peace|harmony serenity tranquility treaty truce
+peanut|peanut|allergen allergy butter food goober grocery legume nature peanuts roasted salty seeds snacks vegan vegetarian
+pear|pear|food fruit grocery healthy nature pears vegan vegetarian
+pen|pen|edit pens write writing inkwell fountain signatures
+pencil|pencil|edit write writing
+pentagon|pentagon-outline|five fifths shapes 5 outline
+pentagon-alternate|pentagon|five fifths shapes 5
+pentagon-dashed|pentagon-dashed|five fifths shapes 5 temporary incomplete unfinished invisible invisibility
+pentagon-four-fifths|pentagon-4-5th|five shapes 4 5 5th
+pentagon-one-fifth|pentagon-1-5th|five fifths shapes 1 5 5th
+pentagon-three-fifths|pentagon-3-5th|five shapes 3 5 5th
+pentagon-two-fifths|pentagon-2-5th|five shapes 2 5 5th
+people|people|bathroom couple female feminine friends heterosexuality humans male man masculine men monogamous monogamy parents person relationship restroom straight toilet woman women
+perfume|perfume|bottle colognes fragrances perfumes scents
+person-feminine|person-feminine|bathroom female humans mother parent people restroom toilet woman women
+person-masculine|person-masculine|bathroom father humans male man men parent people restroom toilet
+phone|phone-smart|devices electronics iphone smartphone technology telephone
+phone-call|phone-handset|communicate communications message talk telephone handset
+phone-end-call|phone-handset-down|communicate communications message talk telephone handset down
+phone-speaker|phone-handset-waves|audio call communication phonespeaker speakerphone handset waves
+photo-landscape|photo-landscape|image media photography photos picture
+piano|piano|band entertainment grand instrument keyboard musical orchestra organ percussion symphony synthesizer
+pig|pig|pigs hogs swine animals livestock boars pork bacon
+pill|pill|medicine medication medical doctor pharmacy pharmacist prescription prescribe treatment dose drugs tablet capsule health
+pin|pin|enamel metal tack
+pisces|pisces|alchemical alchemy astrology astronomy projection zodiac
+pitcher|pitcher|carafe drinks glass handle jug juice water
+pizza|pizza|food meal italian tomatoes cheese pepperoni pizzaiolo pizzeria naples american neapolitan margherita
+plate-food|plate-food|plates curry pasta rice noodles dishes dishware meals eating dinner lunch breakfast
+playback-fast-forward|playback-fast-forward|
+playback-next|playback-next|skip
+playback-pause|playback-pause|
+playback-play|playback-play|audio start video
+playback-play-button|playback-play-button|audio start video
+playback-previous|playback-previous|
+playback-rewind|playback-rewind|
+playback-stop|playback-stop|
+playlist|music-note-list|entertainment media music note list
+plus|plus|add new
+poo|poo|poops pooping face smiling smile shit feces fecal silly funny potty humorous
+postage-stamp|postage-stamp|communication envelope mail message
+postcard|postcard|communication mail message stamp
+pot|pot|chef cooking cookware kitchen pots sauces soup stovetop
+potted-plant|potted-plant|plants houseplants
+poultry|poultry|bird chicken duck food grocery leg meat turkey
+power|power|off on
+pram|baby-pram|baby buggy carriage child stroller walking
+pregnancy-test|pregnancy-test|health reproduction reproductive tests
+pretzel|pretzel|biscuit dough food grocery knot pretzels salty snacks twist vegetarian
+preview|television-play|play video television
+print|printer|document printer
+priority-high|chevrons-up|chevrons double upward
+priority-low|chevrons-down|chevrons double downward low
+priority-mid|equal|middle equal equate equality same
+private|hand-octagon|hand privacy secure security stop octagon
+profile|human-profile|anatomy body feminine head humans man masculine medical men people person user woman women health
+promoted|arrow-northeast-square|arrow advertisement hot trending upward right north east northeast square
+public|person-walking-circle|accessible accessibility humans people person walk walking circle
+pull-request|branch-arrow|arrow branches git repository
+pump|shoe-high-heel|apparel clothes clothing fashion feet foot formal garments heels high pumps shoes style stylish wear feminine
+pump-bottle|pump-bottle|bottles cleaner cleaning containers handsoap lotion soap
+push-pin|push-pin|tack thumbtack
+puzzle|puzzle-jigsaw|jigsaw plug-ins plugins puzzles
+question-mark|question|unknown
+radio|radio|antenna devices dial electronics entertainment listen media music retro technology
+rain|weather-cloud-rain|cloudy precipitation weather
+rainbow|rainbow|colors gay homosexuality lesbianism pride queer
+receipt|receipt|order payment transaction
+redirect|arrow-redirect-heavy|arrow emails messages heavy
+redo|arrow-uturn-right|arrow uturn right
+reference|reference|mark note
+refresh|arrow-clockwise|arrow browser reload forwards roll clockwise
+refresh-reverse|arrow-counter-clockwise|arrow retry backwards roll counter clockwise
+refrigerator|refrigerator|appliance chef cold cooking cool drinks food freezer kitchen
+remove|minus|dash remove subtract minus
+rename|cursor-text-field|cursor field i-beam name type write text
+reorder|list|grip gripper lines list
+repeat|arrows-repeat|arrows replay
+reply|arrow-reply-heavy|arrow left heavy
+reply-all|arrows-reply-all-heavy|arrows emails messages left heavy
+report|exclamation-circle|exclamation problem circle attention priority
+ringed-planet|ringed-planet|planetary planets system satellites saturn jupiter uranus neptune
+robot|robot|robotics android computer artificial intelligence ai machine automation
+rocket|rocket|blastoff galaxy launch planetary rockets space transportation travel universe
+roller-skate|roller-skate|derby skates sport wheels skating
+row|rows|rows lists view
+rubber-stamp|rubber-stamp|inking seal stamping
+ruler|ruler|craft create measurement
+run|person-running|athletics sports running runner marathon sprinting jogging racing sprints jogs races runs person
+safety-pin|safety-pin|attach place secure sewing tailoring
+sagittarius|sagittarius|alchemical alchemy astrology astronomy incineration zodiac
+sailboat|sailboat|sails ship vessel watercraft wind
+sandwich|sandwich|bread breakfast lunch dinner food meals eating melting panini cheese bun
+save|arrow-in-tray|arrow download downward import in tray
+scarf|scarf|clothes clothing cold warm winter
+school|school|building college educational elementary learning schoolhouse teaching university
+science|atom|atom biology chemistry life molecule nucleus particle physics
+scooter|motor-scooter|commute motor transportation travel vehicle
+scorpio|scorpio|alchemical alchemy astrology astronomy separation zodiac
+screwdriver|screwdriver|tools turn
+script|script|scripting coding code automation programming
+scrub-brush|scrub-brush|cleaner cleaning scrubber tool washing
+search|magnifying-glass|find glass magnifying zoom
+seed|seed|almond food grocery nature plants seeds sunflower vegan vegetarian
+send|paper-airplane|airplane communication email mail message paper
+send-to|arrow-forward-heavy|arrow share forward emails messages heavy
+server|server-rack|cabinet cloud labels rack system
+service-counter|people-counter|admission admit airline desk help people person support ticketing
+set-square|ruler-set-square|craft create drawing measurement ruler
+share|arrow-out-square|arrow export send out square
+sharing|people-arms-linked|people person arms linked
+sheep|sheep|lambs animals livestock sheering wool mutton dairy science cloning clone dolly
+shell|shell|allergen allergy aquatic crustacean mollusk ocean oyster sea shellfish food
+shield|shield|defense guard protection safety secure security
+shirt|shirt|apparel buttons clothes clothing collared collars dress feminine garments masculine blouse shirts tops wear
+shoe|shoe|apparel athletics clothes clothing fashion feet foot garments shoes style stylish wear
+shogi|shogi|chess players games board japanese
+shop|shop|buy checkout convenience retail shopping store
+shopping-bag|shopping-bag|buy checkout retail
+shopping-basket|shopping-basket|buy checkout retail
+shopping-cart|shopping-cart|buy checkout retail
+shorts|shorts|apparel bottoms boxers clothes clothing feminine garments masculine undergarments underwear wear
+shovel-and-pail|shovel-pail|children kids play sand sandcastle toy
+shower|shower|bathe bathroom cleaning relaxing restroom soap spray wash water
+shuffle|arrows-shuffle|arrows
+sign-in|arrow-in-rectangle|arrow door log rectangle
+sign-out|arrow-out-rectangle|arrow door log rectangle
+signature-document|document-signature|file page paper deals contracts
+sink|sink|basin bathroom cleaning drain mirror restroom soap water
+skateboard|skateboard|deck skater sport wheels skating
+skip-backward|dot-arrow-left-arc|arrow left dot arc
+skip-forward|dot-arrow-right-arc|arrow right dot arc
+skirt|skirt|apparel bottoms clothes clothing feminine garments skirts wear
+skull|skull|anatomy dangerous dead death halloween hazard medical pirates poison skeleton skulls toxicity vertebrates warning health
+skull-profile|skull-profile|anatomy dangerous dead death halloween hazard medical pirates poison skeleton skulls toxicity vertebrates warning health
+sleet|weather-cloud-sleet|cloudy freezing precipitation rain weather
+slide|slide-film|slideshow film
+sliders-horizontal|sliders-horizontal|control filter panel parameters preferences refine settings variables
+sliders-vertical|sliders-vertical|control filter panel parameters preferences refine settings variables
+slideshow|slide-show|slide show
+slideshow-play|slide-show-play|slide show
+smoking|smoking-circle|area cigarette vaping vaporizer circle
+smoking-no|smoking-circle-slash|area cigarette vaping vaporizer circle slash
+snake|snake|snakes serpents reptiles scales animals hissing venomous
+snare-drum|snare-drum|band drums drumsticks entertainment instrument marching musical orchestra percussion symphony
+snippet|curly-brackets-ellipsis|code coders css engineers hackers hacking programmers curly brackets ellipsis
+snorkel|snorkel|snorkeling scuba diving swimming breahthing mask fishing
+snowflake|snowflake|chilly cold cool freeze freezing frigid weather winter
+soap|bar-soap|bar bathe bathing clean shower soaps squeaky washing
+soccer|soccer|sports athletics players games footballs kicking goals field strikers striking scoring shoot pass score
+sock|socks|apparel clothes clothing feet foot garments socks wear
+soda-bottle|soda-bottle|carbonated carbonation club drinks pop soft water
+soft-serve|soft-serve|soft-serve ice cream dessert frozen novelties novelty chocolate vanilla swirl twist
+soy|soybeans|allergen allergy edamame food grocery milk nature pods protein soybeans vegan vegetarian
+spider|spider|arachnids venomous webbing spinner
+sponge|dish-sponge|cleaner cleaning scrubbing sponges washing wipe dish
+spoon|spoon|chef cooking dining eatery flatware food kitchen restaurant silverware utensil
+spray-bottle|spray-bottle|bottles cleaner cleaning washing window
+square|square-outline|voted checkbox voting shapes 4 outline
+square-alternate|square|box shapes 4
+square-circle|square-circle|square circle templates shape geometry
+square-dashed|square-dashed|box shapes 4 temporary incomplete unfinished invisible invisibility
+square-one-fourth|square-1-4th|box quarter shapes 1 4 4th
+square-three-fourths|square-3-4th|box quarter shapes 3 4 4th
+square-two-fourths|square-2-4th|box quarter shapes 2 4 4th
+squeeze-tube|squeeze-tube|containers cream gel hair product tubes
+stairs|stairs|elevation floor level steps
+star|star|favorite like
+star-half|star-half|favorite like
+star-of-life|asterisk-heavy|asterisk heavy stars ems emergency medical services paramedic emt technicians response ambulances hospitals health
+star-outline|star-outline|favorite like
+stars|sparkle|astronomy sparkles starfield
+steering-wheel|steering-wheel|automobile car driving transportation travel vehicle
+stethoscope|stethoscope|breathe breathing chest doctor heart medical nurse pump health
+sticker|sticker|craft create stickers
+stomach|stomach|body diets digestion digestive eating food humans hunger hungry medical organ health
+stopwatch|stopwatch|measure time workout
+storm|weather-cloud-lightning-bolt|cloudy lightning thunder weather bolt
+stovetop|stovetop|appliance burners chef cooking food heating kitchen range stove
+strawberry|strawberry|berries food fruit grocery healthy nature strawberries vegan vegetarian
+stroller|stroller|baby buggy carriage child pram walking
+subtask|chart-flow|charts data graphs flow statistics organizational productivity
+subtitles|ellipsis-speech-bubble|communication ellipsis speech typing bubble
+suit|suit-jacket|apparel clothes clothing coats dress fashion formal garments jackets feminine masculine neckties style stylish suits wear
+suit-club|playing-card-suit-club|cards playing poker blackjack gambling gamble games players
+suit-diamond|playing-card-suit-diamond|cards playing poker blackjack gambling gamble games players
+suit-heart|playing-card-suit-heart|cards playing poker blackjack gambling gamble games players
+suit-spade|playing-card-suit-spade|cards playing poker blackjack gambling gamble games players
+suitcase|suitcase|airplane airport baggage carry-on checked luggage stow train travel
+sun|sun|clear daylight daytime light sol star sunlight sunshine warm weather
+sunglasses|sunglasses|cool hot ultraviolet uv weather
+sunrise|sun-arrow-up|horizon arrow up
+sunscreen|sunscreen|beach cream lotion pools sunblock sundries swimming vacation
+sunset|sun-arrow-down|horizon arrow down
+suspension-bridge|bridge-suspension|bridges road water span
+swap-horizontally|arrows-left-right|arrows left right east west sort rearrange sort horizontal
+swap-vertically|arrows-up-down|arrows upward downward rearrange sort
+sword|sword|blades broadsword claymore combat hilt medieval metal military weapons
+symbol|teleprinter|communicate communication deaf hearing keyboard message speech tdd teleprinter teletypewriter tty
+synagogue|synagogue|god jewish judiasm prayers religions synangogues temple worship
+sync|arrows-clockwise|arrows rotate clockwise
+sync-reverse|arrows-counter-clockwise|arrows rotate counter clockwise
+syringe|syringe|blood doctor drugs hospital medical pharmacy syringes health
+t-square|ruler-t-square|craft create measurement ruler t-square
+table|spreadsheet|charts databases spreadsheets tables organizational
+tablet|tablet-computer|devices electronics ipad technology computer
+tabs|squares|browser squares
+tabs-user|user-squares|browser users people person squares
+tag|tag|deal price sale
+takeout-box|takeout-box|oyster pail chinese container rice
+tampon|tampon|blood feminine health menstrual reproduction reproductive tampons
+target|target|bullseye darts archery aim concentric circles project goal objective
+taurus|taurus|alchemical alchemy astrology astronomy congelation zodiac
+taxi|taxi|cab driver ground transit transportation travel vehicle
+teapot|teapot|leaves drinking drinks water loose infuser strainer black green white oolong darjeeling english breakfast matcha chai earl grey chamomile yerba mate rooibos
+telephone|telephone|call communicate communications message retro rotary talk
+telescope|telescope|lenses magnify mirrors observe planetary planets science space stars
+temperature-cool|temperature-cold|chilly cold freeze freezing frigid thermometer weather
+temperature-warm|temperature-hot|burning heat hot thermometer toasty weather fire
+temple|temple|asia buddha buddhism japanese shrine
+theatre|theatre-mask|acting amphitheater auditorium broadway cinema dramatic entertainment movie performance performing playhouse theater mask
+thinking|ellipsis-thought-bubble|bubbles cloud thought ellipsis
+thought|thought|bubbles cloud dream thinking
+thought-alert|exclamation-thought-bubble|bubbles cloud exclamation thinking thoughtalert attention priority
+thought-dialogue|question-thought-bubble|bubbles cloud question thinking thoughtdialogue
+throat|human-profile-throat|body breathe breathing eating esophagus food head humans medical mouth respiratory trachea health profile
+thumbs-down|thumbs-down|dislike
+thumbs-up|thumbs-up|like
+ticket|ticket-event|admission admit entertainment event movie pass raffle theater voucher
+ticket-admission|ticket-reward|admit entertainment event movie pass raffle theater ticketadmission voucher reward
+timeline|chart-timeline|charts data graphs statistics organizational
+toaster|toaster|appliance bread gluten pastry toasting
+toilet|toilet|bathroom closet flushing poop restroom shitter urinate water
+toilet-paper|toilet-paper|bathroom clean flushing poop restroom sanitary shitter urinate wipe wiping
+token|star-circle|award coin currency games play reward star circle success
+tooth|tooth|body bones chewing dental dentist eating enamel humans teeth health
+torii|shrine|asia japanese shinto shrine temple religion
+tornado|tornado|cyclone disaster natural nature twister whirlwind
+tortoise|turtle|animal nature slow speed turtle
+towel|towel|bathe bathing bathroom handtowel hanging rack restroom towels washcloth washing
+traffic-cone|traffic-cone|cones driving orange safety obstacle blocking road street construction accident
+traffic-light|traffic-light|directions driving go navigation sign stoplight street
+train|train|railroad subway transit transportation travel tube vehicle
+train-high-speed|train-high-speed|railroad subway transit transportation travel tube vehicle
+train-light-rail|train-light-rail|railroad subway transit transportation travel tube vehicle
+train-magnetic-levitation|train-magnetic-levitation|maglev futuristic high-speed transit transportation travel vehicle track
+train-metro|train-metro|railroad subway transit transportation travel tube vehicle
+transfers|arrows-half-left-right-circle|arrows download in move out upload left right half circle
+translate|language-arrows-clockwise|international interpretation interpreter language translation translator bilingual multilingual arrows clockwise
+tree|tree-deciduous|arbor deciduous leaf leaves nature park plant wood
+triangle|triangle-outline|three third 3 shapes outline
+triangle-alternate|triangle|three third 3 shapes
+triangle-dashed|triangle-dashed|three 3 temporary incomplete unfinished invisible invisibility shapes
+triangle-one-third|triangle-1-3rd|three 1 3 shapes 3rd
+triangle-two-thirds|triangle-2-3rd|three 2 3 shapes 3rd
+trophy|trophy|achievement award cup first one prize winner success
+tropical-cocktail|cocktail-glass-tropical|alcohol bar beach colada drinks hurricane mixed piña tiki glass
+truck|delivery-truck|delivery shipping transit vehicle
+trumpet|trumpet|alarm alert band brass bugle entertainment horn instrument jazz musical orchestra sound symphony
+tshirt|shirt-short-sleeve|apparel clothes clothing garments shirt t-shirt theme theming wear masculine feminine short sleeve
+tulip|flower-tulip|allergen allergy bloom blossom camera floret flower macro nature photography photos plant rose zoom
+tulip-name-tag|tulip-name-tag|tulips flowers tags tofu fire japan japanese kindergarten preschool children kids
+tumbler|tumbler-glass|alcohol bourbon cocktail cup drinks gin glass rum scotch tequila vodka whiskey
+tv|television|devices electronics entertainment media show technology television watch
+umbrella|umbrella|dry precipitation weather wet
+underwear|underwear|apparel bottoms clothes clothing garments intimates undergarments wear
+undo|arrow-uturn-left|arrow left u-turn uturn
+unfollow|user-x|friend minus social subtract twitter user x
+unlock|lock-unlocked|padlock secure security lock unlocked
+unlock-keyhole|lock-unlocked-keyhole|code lock padlock passcode password privacy private secure security unlockkeyhole unlocked
+upload|cloud-arrow-up|arrow cloud
+upload-document|document-arrow-up|documents file arrow
+upload-folder|folder-arrow-up|folders directory directories arrow
+upward|arrow-up-heavy|arrow north heavy
+user|user|face head humans people person profile silhouette users
+user-circle|user-circle-outline|head humans person profile silhouette users people outline
+user-circle-dashed|user-circle-dashed|head humans person profile silhouette users temporary incomplete unfinished invisible invisibility people
+user-circle-filled|user-circle|head humans person profile silhouette users people
+username|at|address at communication email mentions replies reply
+vacuum-cleaner|vacuum-cleaner|cleaning dust floors suction
+verified|checkmark-verification|authenticated authentication authenticity checkmark official real verification verify
+video-camera|video-camera|chat conference device electronics facetime technology
+video-camera-off|video-camera-slash|chat conference facetime slash
+video-game|video-game-modern|console controller devices electronics games gaming nintendo play playstation technology xbox modern
+video-game-classic|video-game-classic|console controller devices electronics games gaming nintendo play technology sega retro
+video-game-joystick|video-game-joystick|joysticks games atari  consoles arcades
+videotape|tape-video-cassette|cassette retro tape vcr vhs video media
+view|eye|eye show visibility
+view-off|eye-slash|eye hide visibility slash
+vinyl-record|vinyl-record|album audio dj entertainment media music retro turntable
+violin|violin|band bass cello entertainment instrument musical orchestra strings symphony viola
+virgo|virgo|alchemical alchemy astrology astronomy distillation zodiac
+vitruvian-man|vitruvian-man|accessibility anatomy disability humans people person figure body
+voicemail|tape|communication recording tape voice
+volcano|volcano|crater disaster energy eruption geothermal islands lava natural nature smoke
+volume-high|volume|audio sound
+volume-off|volume-slash|audio mute sound slash
+walk|person-walking|humans pedestrian people person public walking
+wall|brick-wall|firewall restricted restriction secure security brick
+warning|exclamation-triangle|alert exclamation triangle attention priority important
+watch-analog|watch|clocks hours minutes timer
+water|water|drink h2o liquid soak splash wet
+whale|whale|animals aquatic marine humpback gray blue spout blowhole water oceanic oceans
+wheat|grain|allergen allergy bread celiac cereal flour food gluten grains grocery nature pasta pastry vegan vegetarian
+wheelchair|wheelchair|accessible accessibility disability handicap humans people person injured injury mobility
+wheelchair-access|person-wheelchair|accessible accessibility bathroom disability handicap humans people person restroom toilet
+wheelchair-motorized|wheelchair-motorized|accessible accessibility disability handicap humans people person injured injury mobility
+whistle|whistle|blow call coaching gym signal sports athletics
+wifi|wifi|internet wireless
+wind|wind|air blow breeze hurricane tornado weather
+window|computer-window|app computers program software technology
+wine|wine-glass|alcohol bar drinks glass red rose white
+wine-bottle|wine-bottle|alcohol bar drinks red rose white
+wrapping-paper|wrapping-paper|birthday christmas gifting gifts holiday presents wrappingpaper
+wrench|wrench|preferences settings tools
+yin-yang|yin-yang|china chinese dark duality light taichi yin-yang
+zoom-in|magnifying-glass-plus|magnifying glass magnify plus
+zoom-out|magnifying-glass-minus|magnifying glass magnify minus

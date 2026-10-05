@@ -1,0 +1,63 @@
+{
+  "reference": {
+    "app": "Notion.app",
+    "version": "7.31.3",
+    "theme": "light",
+    "captured_on": "2026-09-02",
+    "opened_by": "clicking the @Today chip"
+  },
+  "dialog": {
+    "width_px": 248,
+    "height_px": 500,
+    "border_radius_px": 10,
+    "background": "#ffffff",
+    "box_shadow": "same three layers as the mention menu",
+    "anchor": "chip left, chip bottom, no gap",
+    "content_inset_px": 4
+  },
+  "date_field": {
+    "size_px": [224, 28],
+    "border_radius_px": 6,
+    "background": "rgba(66,35,3,0.03)",
+    "ring": "rgba(28,19,1,0.11) 0 0 0 1px",
+    "value_format": "Sep 2, 2026",
+    "selected_on_open": true
+  },
+  "month_header": {
+    "label": "Sep 2026",
+    "font_size_px": 14,
+    "font_weight": 500,
+    "line_height_px": 21,
+    "today_button": {"font_size_px": 12, "font_weight": 500, "color": "#8e8b86", "height_px": 20, "border_radius_px": 3, "padding": "0 8px"},
+    "chevrons": "previous and next month"
+  },
+  "weekday_row": {"labels": ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"], "font_size_px": 12, "line_height_px": 18, "color": "#8b9898", "cell_px": 32},
+  "day_grid": {
+    "columns": 7,
+    "cell_px": 32,
+    "grid_size_px": [224, 224],
+    "day_button_px": 28,
+    "day_button_radius_px": 6,
+    "font_size_px": 14,
+    "line_height_px": 16.8,
+    "selected_background": "#2783de",
+    "selected_color": "#ffffff",
+    "adjacent_month_color": "#8b9898"
+  },
+  "rows": [
+    {"label": "End date", "control": "switch 30x18"},
+    {"label": "Date format", "control": "submenu", "value": "Relative"},
+    {"label": "Include time", "control": "switch 30x18"},
+    {"label": "Remind", "control": "submenu", "value": "None"},
+    {"divider": true},
+    {"label": "Clear"},
+    {"divider": true},
+    {"label": "Learn about reminders", "icon": "question mark", "color": "#7d7a75", "icon_color": "#8e8b86"}
+  ],
+  "row": {"size_px": [240, 28], "border_radius_px": 6, "font_size_px": 14, "value_color": "#7d7a75"},
+  "date_format_options": ["Full date", "Month/Day/Year", "Day/Month/Year", "Year/Month/Day", "Relative"],
+  "unverified": [
+    "wire values for non-relative date_format and time_format were not captured in this session",
+    "end date and reminder payload shapes were not captured in this session"
+  ]
+}
